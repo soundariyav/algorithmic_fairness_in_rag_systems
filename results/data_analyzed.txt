@@ -1,0 +1,30 @@
+Total papers: 12027
+Papers with institutions: 12027
+region
+Europe     5827
+America    3425
+Asia       2204
+Oceania     449
+Africa      122
+Name: count, dtype: int64
+primary_institution
+Princeton University                                                140
+Université Paris Cité                                               119
+École Polytechnique Fédérale de Lausanne                            103
+University of Toronto                                                94
+ETH Zurich                                                           94
+University of Oxford                                                 90
+University of Cambridge                                              88
+Carnegie Mellon University                                           87
+Massachusetts Institute of Technology                                79
+Imperial College London                                              77
+Centre National de la Recherche Scientifique                         72
+McGill University                                                    72
+Stanford University                                                  69
+Institut national de recherche en informatique et en automatique     66
+Cornell University                                                   64
+Tsinghua University                                                  63
+University College London                                            61
+University of Electronic Science and Technology of China             60
+Technion – Israel Institute of Technology                            57
+Polytechnic University of Turin                                      55
