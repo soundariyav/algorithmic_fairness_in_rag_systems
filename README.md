@@ -66,10 +66,14 @@ arxiv_rag_project/
 │   └── chroma_db/            # Persistent ChromaDB collection
 ├── notebooks/
 │   └── query_test.ipynb      # Query and retrieval testing
-├── src/
-│   ├── autoencoder.py        # Optional: if using autoencoder for embeddings
-│   ├── embedding_pipeline.py # Embedding generation code
-│   └── rag_app.py            # Streamlit dashboard for analysis
+├── scripts/
+│   ├── Retreival.ipynb
+│   ├── exploratory_analysis.py # data analysis
+│   └── retreival.py            # Chroma db storage and retreival
+|   └── generate_embeddings.py
+|   └── api_extraction.py      # Using pyalex to extract institution
+|   └── pca_analysis.py
+|   └── abstract_chunking.py 
 └── README.md
 ```
 
