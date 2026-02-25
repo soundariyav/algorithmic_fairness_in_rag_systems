@@ -57,6 +57,7 @@ To understand the distribution of paper embeddings, a **2D PCA projection** was 
 > Note: PCA reduces high-dimensional embeddings (e.g., 384 dimensions from MiniLM) to 2 dimensions for visualization only. Retrieval and similarity searches use the full embedding vectors.
 
 ## System Architecture
+```
 arxiv_rag_project/
 ├── data/
 │   ├── raw/                 # Original arXiv metadata files
@@ -70,7 +71,7 @@ arxiv_rag_project/
 │   ├── embedding_pipeline.py # Embedding generation code
 │   └── rag_app.py            # Streamlit dashboard for analysis
 └── README.md
-
+```
 
 ## Evaluation
 
