@@ -46,7 +46,7 @@ To understand the distribution of paper embeddings, a **2D PCA projection** was 
 
 ### PCA Projection Example
 
-![PCA Embedding Plot](results/PCA2.png)
+![PCA Embedding Plot](results/pca2.png)
 
 - Each point represents a paper in the dataset.
 - Color coding can reflect:
