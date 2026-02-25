@@ -40,6 +40,21 @@ The system retrieves relevant papers given a query and analyzes **institutional 
 - ChromaDB similarity search retrieves top-K relevant papers for each query.
 
 ---
+## Embedding Visualization
+
+To understand the distribution of paper embeddings, a **2D PCA projection** was generated for the 50k subset of CS papers. This helps visualize clustering by institution, region, or other metadata.
+
+### PCA Projection Example
+
+![PCA Embedding Plot](results/PCA2.png)
+
+- Each point represents a paper in the dataset.
+- Color coding can reflect:
+  - **Region** (e.g., America, Europe, Asia, Oceania)
+  - **Institutional tier** (Privileged vs Underrepresented)
+- Dense clusters indicate semantically similar papers in the embedding space.
+
+> Note: PCA reduces high-dimensional embeddings (e.g., 384 dimensions from MiniLM) to 2 dimensions for visualization only. Retrieval and similarity searches use the full embedding vectors.
 
 ## System Architecture
 arxiv_rag_project/
@@ -66,10 +81,10 @@ arxiv_rag_project/
 ### Example Institutional Distribution Charts
 
 #### Top Institutions in Retrievals
-![Top Institutions](charts/top_institutions.png)
+![Top Institutions](results/top_20_institutions.png)
 
 #### Tier Distribution (Privileged vs Underrepresented)
-![Tier Distribution](charts/tier_distribution.png)
+![Tier Distribution](results/region_wise_result.png)
 
 #### Regional Distribution of Results
 ![Regional Distribution](charts/regional_distribution.png)
