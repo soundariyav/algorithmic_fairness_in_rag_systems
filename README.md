@@ -84,10 +84,10 @@ arxiv_rag_project/
 ![Top Institutions](results/top_20_institutions.png)
 
 #### Tier Distribution (Privileged vs Underrepresented)
-![Tier Distribution](results/region_wise_result.png)
+![Tier Distribution](results/region1_wise_result.png)
 
 #### Regional Distribution of Results
-![Regional Distribution](charts/regional_distribution.png)
+![Regional Distribution](results/region_wise_result.png)
 
 ---
 
