@@ -102,11 +102,10 @@ arxiv_rag_project/
 ---
 
 ## Technical Stack
-- **Languages**: Python, Java, C++  
-- **ML & NLP**: PyTorch, Sentence Transformers, BERT  
+- **Languages**: Python  
+- **ML & NLP**: PyTorch, Sentence Transformers, BERT, Principal compound analysis
 - **Vector DB**: ChromaDB  
-- **Backend / DevOps**: FastAPI, Streamlit, Docker  
-- **Cloud**: AWS (EC2, S3, RDS, ElastiCache)  
+- **Backend / DevOps**: FastAPI, Streamlit  
 - **Data Analysis & Visualization**: Pandas, Matplotlib, Seaborn  
 
 ---
