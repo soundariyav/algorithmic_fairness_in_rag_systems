@@ -1,0 +1,31 @@
+query,NDCG@10,MRR,Precision@10,Recall@10
+How do modern optimization methods improve deep learning training?,0.8573194852355609,1.0,0.6,1.0
+What are the latest advances in neural network architectures?,0.6217331638029128,0.3333333333333333,0.5,1.0
+How do transformers work in deep learning models?,0.0,0.0,0.0,0.0
+What techniques improve generalization in machine learning?,0.9217868789962071,1.0,0.3,1.0
+How does transfer learning work across different domains?,0.9605291479810895,1.0,0.8,1.0
+What are effective methods for handling overfitting in neural networks?,0.6947702914378464,0.5,0.4444444444444444,1.0
+How do attention mechanisms improve model performance?,0.8550961823035496,1.0,0.5555555555555556,1.0
+What are the challenges in training very deep neural networks?,0.6509209298071326,0.5,0.2,1.0
+What are the latest advances in natural language processing?,0.9842184869190973,1.0,0.9,1.0
+How do large language models process and generate text?,0.5437713091520254,0.3333333333333333,0.2,1.0
+What techniques improve machine translation quality?,0.8981192674612326,1.0,0.7,1.0
+How does sentiment analysis work with deep learning?,0.9121559825872435,1.0,0.5555555555555556,1.0
+What methods are used for named entity recognition?,0.9397911964740513,1.0,0.6666666666666666,1.0
+What techniques improve computer vision accuracy?,0.6256646589861505,0.5,0.3333333333333333,1.0
+How do convolutional neural networks process images?,0.8772153153380493,1.0,0.2222222222222222,1.0
+What are effective methods for image segmentation?,0.9833032486989473,1.0,0.6666666666666666,1.0
+How does object detection work in neural networks?,0.7486761295186739,0.5,0.4,1.0
+What advances have been made in video understanding?,0.8750832721664332,1.0,0.6,1.0
+How does reinforcement learning apply to robotics?,0.9651366671790967,1.0,0.6666666666666666,1.0
+What are policy gradient methods in reinforcement learning?,0.8930068676327362,1.0,0.5,1.0
+How do multi-agent systems learn coordination?,0.8712396658637702,1.0,0.7,1.0
+What techniques improve sample efficiency in RL?,0.0,0.0,0.0,0.0
+How do graph neural networks process structured data?,0.9397911964740513,1.0,0.6666666666666666,1.0
+What are effective federated learning approaches?,0.9803771474638899,1.0,0.7777777777777778,1.0
+How does meta-learning enable few-shot learning?,0.9705437052559006,1.0,0.6666666666666666,1.0
+What methods prevent catastrophic forgetting in continual learning?,0.9833032486989473,1.0,0.6666666666666666,1.0
+How do generative adversarial networks create realistic images?,0.86034433104172,1.0,0.3,1.0
+What techniques improve neural architecture search?,0.7873809837758803,0.5,0.8,1.0
+How does explainable AI provide model interpretability?,0.8201741356762529,0.5,0.8,1.0
+What approaches handle multimodal learning across vision and language?,0.8710785440003369,1.0,0.3333333333333333,1.0
