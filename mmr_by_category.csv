@@ -1,0 +1,21 @@
+primary_cat,lambda,avg_relevance,intra_list_div,ndcg_at_10,mrr
+Algorithms and Theory,0.3,0.486427,0.65758,0.972186,1.0
+Algorithms and Theory,0.5,0.541827,0.60055,0.980851,1.0
+Algorithms and Theory,0.7,0.591501,0.516572,0.996196,1.0
+Algorithms and Theory,0.9,0.600216,0.477807,0.999587,1.0
+Computer Vision,0.3,0.480783,0.652759,0.972095,1.0
+Computer Vision,0.5,0.539356,0.597746,0.975132,1.0
+Computer Vision,0.7,0.594835,0.486978,0.995653,1.0
+Computer Vision,0.9,0.604537,0.442186,0.999785,1.0
+Machine Learning,0.3,0.460322,0.666052,0.968637,1.0
+Machine Learning,0.5,0.534746,0.591762,0.971397,1.0
+Machine Learning,0.7,0.591058,0.482352,0.995158,1.0
+Machine Learning,0.9,0.60351,0.423325,0.999775,1.0
+Natural Language Processing,0.3,0.455861,0.673241,0.968558,1.0
+Natural Language Processing,0.5,0.515142,0.611967,0.975848,1.0
+Natural Language Processing,0.7,0.560693,0.535898,0.995099,1.0
+Natural Language Processing,0.9,0.572877,0.485776,0.999701,1.0
+Systems and Distributed Computing,0.3,0.407522,0.738713,0.97711,0.9
+Systems and Distributed Computing,0.5,0.453644,0.693751,0.982941,0.9
+Systems and Distributed Computing,0.7,0.494832,0.624504,0.992173,0.9
+Systems and Distributed Computing,0.9,0.50798,0.561586,0.999109,0.9

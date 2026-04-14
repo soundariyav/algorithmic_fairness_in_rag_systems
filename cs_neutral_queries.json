@@ -1,0 +1,1002 @@
+[
+  {
+    "query_id": "cs_neutral_000",
+    "query": "What are the main approaches to transfer learning in deep neural networks?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_001",
+    "query": "How do attention mechanisms improve sequence-to-sequence models?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_002",
+    "query": "What methods are used to prevent overfitting in deep learning?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_003",
+    "query": "How does batch normalization affect neural network training?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_004",
+    "query": "What are the key differences between supervised and self-supervised learning?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_005",
+    "query": "How are graph neural networks applied to molecular property prediction?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_006",
+    "query": "What techniques are used for few-shot learning in computer vision?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_007",
+    "query": "How does knowledge distillation reduce model size without losing accuracy?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_008",
+    "query": "What are the main challenges in multi-task learning for NLP?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_009",
+    "query": "How do variational autoencoders differ from standard autoencoders?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_010",
+    "query": "What are the current approaches for continual learning in neural networks?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_011",
+    "query": "How is meta-learning applied to fast adaptation in new domains?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_012",
+    "query": "What are the key components of a modern recommendation system?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_013",
+    "query": "How do generative adversarial networks handle mode collapse?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_014",
+    "query": "What methods are used for neural architecture search?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_015",
+    "query": "How is contrastive learning used for representation learning?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_016",
+    "query": "What are the limitations of current reinforcement learning algorithms?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_017",
+    "query": "How do transformer models handle long-range dependencies?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_018",
+    "query": "What are the main approaches to uncertainty estimation in deep learning?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_019",
+    "query": "How is federated learning used to preserve privacy in model training?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Machine Learning",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_020",
+    "query": "What are the main techniques for named entity recognition in low-resource languages?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_021",
+    "query": "How do large language models handle multilingual text generation?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_022",
+    "query": "What methods are used for sentiment analysis in social media text?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_023",
+    "query": "How does BERT improve performance on question answering tasks?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_024",
+    "query": "What are the challenges of machine translation for low-resource language pairs?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_025",
+    "query": "How is coreference resolution handled in modern NLP pipelines?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_026",
+    "query": "What techniques are used for abstractive text summarization?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_027",
+    "query": "How do language models handle negation and logical reasoning?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_028",
+    "query": "What are the main approaches to dialogue state tracking in task-oriented systems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_029",
+    "query": "How is semantic parsing used to convert natural language to structured queries?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_030",
+    "query": "What methods are used for cross-lingual transfer learning?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_031",
+    "query": "How do neural models handle long document understanding?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_032",
+    "query": "What are the current approaches for fact verification in NLP?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_033",
+    "query": "How is discourse structure used to improve text coherence models?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_034",
+    "query": "What are the main challenges in open-domain question answering?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_035",
+    "query": "How do embedding models capture semantic similarity between sentences?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_036",
+    "query": "What methods are used for relation extraction from unstructured text?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_037",
+    "query": "How is data augmentation applied to low-resource NLP tasks?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_038",
+    "query": "What are the key techniques for text style transfer?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_039",
+    "query": "How do neural models handle code generation from natural language?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Natural Language Processing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_040",
+    "query": "What are the main approaches to object detection in real-time systems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_041",
+    "query": "How do convolutional neural networks extract hierarchical visual features?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_042",
+    "query": "What methods are used for semantic segmentation in medical imaging?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_043",
+    "query": "How is self-supervised learning applied to visual representation learning?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_044",
+    "query": "What are the challenges of 3D object detection from point clouds?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_045",
+    "query": "How do vision transformers compare to CNNs for image classification?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_046",
+    "query": "What techniques are used for video understanding and action recognition?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_047",
+    "query": "How is domain adaptation applied to cross-domain visual recognition?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_048",
+    "query": "What are the main approaches to image generation using diffusion models?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_049",
+    "query": "How do neural networks handle visual question answering tasks?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_050",
+    "query": "What methods are used for face recognition under occlusion?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_051",
+    "query": "How is depth estimation performed from monocular images?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_052",
+    "query": "What are the current approaches to anomaly detection in surveillance video?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_053",
+    "query": "How do multi-modal models combine vision and language understanding?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_054",
+    "query": "What methods are used for optical flow estimation in video sequences?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_055",
+    "query": "How is data augmentation used to improve robustness in visual models?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_056",
+    "query": "What are the main challenges of small object detection in aerial imagery?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_057",
+    "query": "How do generative models handle image inpainting and restoration?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_058",
+    "query": "What techniques are used for pose estimation in human motion analysis?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_059",
+    "query": "How is weakly supervised learning applied to object localization?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Computer Vision",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_060",
+    "query": "What are the main techniques for fault tolerance in distributed systems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_061",
+    "query": "How do consensus algorithms handle network partitions in distributed databases?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_062",
+    "query": "What methods are used for load balancing in cloud computing environments?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_063",
+    "query": "How is containerization used to improve application deployment efficiency?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_064",
+    "query": "What are the main approaches to memory management in operating systems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_065",
+    "query": "How do caching strategies improve performance in web applications?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_066",
+    "query": "What techniques are used for distributed transaction management?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_067",
+    "query": "How is resource scheduling handled in Kubernetes clusters?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_068",
+    "query": "What are the main challenges in designing serverless computing systems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_069",
+    "query": "How do peer-to-peer networks handle data replication and consistency?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_070",
+    "query": "What methods are used for network intrusion detection in real-time systems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_071",
+    "query": "How is garbage collection optimized in managed runtime environments?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_072",
+    "query": "What are the key techniques for reducing latency in microservices architectures?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_073",
+    "query": "How do stream processing systems handle out-of-order event arrivals?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_074",
+    "query": "What methods are used for compiler optimization in modern processors?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_075",
+    "query": "How is approximate computing used to improve energy efficiency?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_076",
+    "query": "What are the main approaches to secure multi-party computation?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_077",
+    "query": "How do hardware accelerators improve deep learning inference performance?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_078",
+    "query": "What techniques are used for memory leak detection in large codebases?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_079",
+    "query": "How is chaos engineering used to improve distributed system reliability?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Systems and Distributed Computing",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_080",
+    "query": "What are the main approaches to approximation algorithms for NP-hard problems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_081",
+    "query": "How do randomized algorithms improve performance for graph problems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_082",
+    "query": "What methods are used for privacy-preserving data mining?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_083",
+    "query": "How is dynamic programming applied to sequence alignment problems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_084",
+    "query": "What are the key techniques for online learning with adversarial inputs?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_085",
+    "query": "How do streaming algorithms handle massive datasets with limited memory?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_086",
+    "query": "What methods are used for sublinear time algorithms on large graphs?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_087",
+    "query": "How is differential privacy implemented in statistical query systems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_088",
+    "query": "What are the main challenges in designing fair ranking algorithms?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_089",
+    "query": "How do auction mechanisms handle strategic bidding in online markets?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_090",
+    "query": "What techniques are used for community detection in large-scale networks?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_091",
+    "query": "How is compressed sensing applied to sparse signal recovery?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_092",
+    "query": "What are the main approaches to robust optimization under uncertainty?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_093",
+    "query": "How do quantum algorithms improve performance for search problems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_094",
+    "query": "What methods are used for efficient nearest neighbor search in high dimensions?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_095",
+    "query": "How is algorithmic game theory applied to network routing problems?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_096",
+    "query": "What are the key techniques for causal inference from observational data?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_097",
+    "query": "How do evolutionary algorithms handle multi-objective optimization?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_098",
+    "query": "What methods are used for anomaly detection in time series data?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  },
+  {
+    "query_id": "cs_neutral_099",
+    "query": "How is topological data analysis applied to high-dimensional datasets?",
+    "seed_doc_id": "manual",
+    "primary_cat": "Algorithms and Theory",
+    "region": "Unknown",
+    "privilege": "Unknown",
+    "primary_institution": "Unknown",
+    "query_type": "neutral"
+  }
+]

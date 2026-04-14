@@ -1,0 +1,401 @@
+query_id,query_type,primary_cat,region,query_privilege,lambda,n_candidates,avg_relevance,intra_list_div,mmr_score,ndcg_at_10,mrr,base_avg_rel,base_ild,base_ndcg,base_mrr,mmr_privileged_count,mmr_privileged_pct,base_privileged_count,base_privileged_pct
+cs_neutral_000,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.508274,0.629987,0.593473,0.97408,1.0,0.587561,0.492734,0.989767,1.0,7,70.0,6,60.0
+cs_neutral_000,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.566506,0.562892,0.564699,0.985764,1.0,0.587561,0.492734,0.989767,1.0,7,70.0,6,60.0
+cs_neutral_000,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.592435,0.520107,0.570737,0.998652,1.0,0.587561,0.492734,0.989767,1.0,7,70.0,6,60.0
+cs_neutral_000,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.597052,0.496211,0.586968,0.99988,1.0,0.587561,0.492734,0.989767,1.0,7,70.0,6,60.0
+cs_neutral_001,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.501824,0.659238,0.612013,0.967793,1.0,0.59534,0.472787,0.998736,1.0,6,60.0,7,70.0
+cs_neutral_001,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.566038,0.59159,0.578814,0.982659,1.0,0.59534,0.472787,0.998736,1.0,6,60.0,7,70.0
+cs_neutral_001,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.599082,0.524783,0.576792,0.992556,1.0,0.59534,0.472787,0.998736,1.0,8,80.0,7,70.0
+cs_neutral_001,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.61676,0.450528,0.600136,0.999776,1.0,0.59534,0.472787,0.998736,1.0,8,80.0,7,70.0
+cs_neutral_002,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.473732,0.601094,0.562885,0.969944,1.0,0.546502,0.506008,0.975622,1.0,7,70.0,6,60.0
+cs_neutral_002,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.526029,0.554943,0.540486,0.995735,1.0,0.546502,0.506008,0.975622,1.0,6,60.0,6,60.0
+cs_neutral_002,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.561437,0.498758,0.542633,0.995226,1.0,0.546502,0.506008,0.975622,1.0,6,60.0,6,60.0
+cs_neutral_002,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.567806,0.472844,0.55831,0.999309,1.0,0.546502,0.506008,0.975622,1.0,7,70.0,6,60.0
+cs_neutral_003,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.410268,0.724447,0.630194,0.961093,1.0,0.482954,0.577827,0.947113,1.0,6,60.0,8,80.0
+cs_neutral_003,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.478866,0.673168,0.576017,0.961365,1.0,0.482954,0.577827,0.947113,1.0,7,70.0,8,80.0
+cs_neutral_003,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.509788,0.614502,0.541202,0.99821,1.0,0.482954,0.577827,0.947113,1.0,7,70.0,8,80.0
+cs_neutral_003,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.523496,0.52099,0.523245,0.999903,1.0,0.482954,0.577827,0.947113,1.0,7,70.0,8,80.0
+cs_neutral_004,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.417349,0.651818,0.581477,0.983523,1.0,0.509977,0.445356,0.979188,1.0,5,50.0,8,80.0
+cs_neutral_004,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.444508,0.622033,0.53327,0.980094,1.0,0.509977,0.445356,0.979188,1.0,5,50.0,8,80.0
+cs_neutral_004,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.517385,0.470606,0.503352,0.982441,1.0,0.509977,0.445356,0.979188,1.0,7,70.0,8,80.0
+cs_neutral_004,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.529359,0.42207,0.51863,0.999665,1.0,0.509977,0.445356,0.979188,1.0,8,80.0,8,80.0
+cs_neutral_005,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.55256,0.595079,0.582323,0.964547,1.0,0.682061,0.425934,0.992684,1.0,7,70.0,7,70.0
+cs_neutral_005,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.633212,0.519914,0.576563,0.966539,1.0,0.682061,0.425934,0.992684,1.0,7,70.0,7,70.0
+cs_neutral_005,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.702177,0.389842,0.608477,0.998699,1.0,0.682061,0.425934,0.992684,1.0,8,80.0,7,70.0
+cs_neutral_005,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.708131,0.357216,0.67304,0.999877,1.0,0.682061,0.425934,0.992684,1.0,8,80.0,7,70.0
+cs_neutral_006,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.46107,0.685294,0.618027,0.982028,1.0,0.607089,0.41136,0.979835,1.0,6,60.0,7,70.0
+cs_neutral_006,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.530583,0.628914,0.579749,0.956171,1.0,0.607089,0.41136,0.979835,1.0,5,50.0,7,70.0
+cs_neutral_006,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.613607,0.420665,0.555724,0.997322,1.0,0.607089,0.41136,0.979835,1.0,4,40.0,7,70.0
+cs_neutral_006,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.616913,0.395236,0.594745,0.999887,1.0,0.607089,0.41136,0.979835,1.0,6,60.0,7,70.0
+cs_neutral_007,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.370041,0.775828,0.654092,0.974157,1.0,0.589448,0.37124,0.997687,1.0,5,50.0,8,80.0
+cs_neutral_007,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.470302,0.685521,0.577912,0.953258,1.0,0.589448,0.37124,0.997687,1.0,9,90.0,8,80.0
+cs_neutral_007,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.56006,0.560311,0.560135,0.991372,1.0,0.589448,0.37124,0.997687,1.0,7,70.0,8,80.0
+cs_neutral_007,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.594945,0.360242,0.571475,0.999849,1.0,0.589448,0.37124,0.997687,1.0,8,80.0,8,80.0
+cs_neutral_008,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.472876,0.688635,0.623907,0.966471,1.0,0.560749,0.541894,0.993493,1.0,5,50.0,8,80.0
+cs_neutral_008,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.537843,0.612041,0.574942,0.990836,1.0,0.560749,0.541894,0.993493,1.0,7,70.0,8,80.0
+cs_neutral_008,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.557501,0.561301,0.558641,0.997629,1.0,0.560749,0.541894,0.993493,1.0,6,60.0,8,80.0
+cs_neutral_008,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.565846,0.541967,0.563458,0.999312,1.0,0.560749,0.541894,0.993493,1.0,6,60.0,8,80.0
+cs_neutral_009,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.377097,0.711555,0.611218,0.914607,1.0,0.545852,0.401722,0.991289,1.0,9,90.0,4,40.0
+cs_neutral_009,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.476658,0.591653,0.534156,0.965147,1.0,0.545852,0.401722,0.991289,1.0,6,60.0,4,40.0
+cs_neutral_009,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.531396,0.471114,0.513312,0.99111,1.0,0.545852,0.401722,0.991289,1.0,4,40.0,4,40.0
+cs_neutral_009,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.566222,0.361205,0.54572,0.999739,1.0,0.545852,0.401722,0.991289,1.0,4,40.0,4,40.0
+cs_neutral_010,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.45689,0.700993,0.627762,0.971051,1.0,0.722821,0.322654,0.994621,1.0,8,80.0,2,20.0
+cs_neutral_010,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.612008,0.536247,0.574128,0.959463,1.0,0.722821,0.322654,0.994621,1.0,5,50.0,2,20.0
+cs_neutral_010,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.735463,0.302084,0.605449,0.998375,1.0,0.722821,0.322654,0.994621,1.0,3,30.0,2,20.0
+cs_neutral_010,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.735463,0.302084,0.692125,1.0,1.0,0.722821,0.322654,0.994621,1.0,3,30.0,2,20.0
+cs_neutral_011,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.480471,0.689905,0.627075,0.945461,1.0,0.586752,0.541887,0.991163,1.0,8,80.0,10,100.0
+cs_neutral_011,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.537258,0.621076,0.579167,0.991656,1.0,0.586752,0.541887,0.991163,1.0,8,80.0,10,100.0
+cs_neutral_011,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.555043,0.601965,0.569119,0.998749,1.0,0.586752,0.541887,0.991163,1.0,9,90.0,10,100.0
+cs_neutral_011,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.598364,0.487282,0.587255,0.999599,1.0,0.586752,0.541887,0.991163,1.0,9,90.0,10,100.0
+cs_neutral_012,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.471599,0.602648,0.563333,0.973278,1.0,0.534141,0.495786,0.99704,1.0,5,50.0,4,40.0
+cs_neutral_012,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.495974,0.581257,0.538616,0.966076,1.0,0.534141,0.495786,0.99704,1.0,5,50.0,4,40.0
+cs_neutral_012,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.554809,0.489372,0.535178,0.995688,1.0,0.534141,0.495786,0.99704,1.0,4,40.0,4,40.0
+cs_neutral_012,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.560285,0.46171,0.550427,0.999801,1.0,0.534141,0.495786,0.99704,1.0,4,40.0,4,40.0
+cs_neutral_013,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.430663,0.681464,0.606223,0.967505,1.0,0.510179,0.481019,0.977772,1.0,6,60.0,10,100.0
+cs_neutral_013,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.518622,0.606022,0.562322,0.955759,1.0,0.510179,0.481019,0.977772,1.0,9,90.0,10,100.0
+cs_neutral_013,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.555928,0.560721,0.557366,0.990192,1.0,0.510179,0.481019,0.977772,1.0,8,80.0,10,100.0
+cs_neutral_013,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.572859,0.397428,0.555316,0.999928,1.0,0.510179,0.481019,0.977772,1.0,7,70.0,10,100.0
+cs_neutral_014,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.425204,0.740029,0.645582,0.964514,1.0,0.628279,0.373576,0.986279,1.0,4,40.0,7,70.0
+cs_neutral_014,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.514963,0.638361,0.576662,0.955863,1.0,0.628279,0.373576,0.986279,1.0,5,50.0,7,70.0
+cs_neutral_014,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.646921,0.367318,0.56304,0.996788,1.0,0.628279,0.373576,0.986279,1.0,7,70.0,7,70.0
+cs_neutral_014,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.64973,0.349876,0.619744,0.9997,1.0,0.628279,0.373576,0.986279,1.0,7,70.0,7,70.0
+cs_neutral_015,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.441135,0.644057,0.58318,0.973994,1.0,0.571198,0.525213,0.995058,1.0,9,90.0,5,50.0
+cs_neutral_015,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.528374,0.588011,0.558193,0.978524,1.0,0.571198,0.525213,0.995058,1.0,5,50.0,5,50.0
+cs_neutral_015,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.571198,0.525213,0.557402,0.995119,1.0,0.571198,0.525213,0.995058,1.0,5,50.0,5,50.0
+cs_neutral_015,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.578983,0.496549,0.57074,0.999618,1.0,0.571198,0.525213,0.995058,1.0,3,30.0,5,50.0
+cs_neutral_016,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.528605,0.570661,0.558044,0.980845,1.0,0.562491,0.434835,0.995447,1.0,4,40.0,6,60.0
+cs_neutral_016,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.547707,0.541986,0.544847,0.986132,1.0,0.562491,0.434835,0.995447,1.0,5,50.0,6,60.0
+cs_neutral_016,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.583537,0.474271,0.550757,0.994999,1.0,0.562491,0.434835,0.995447,1.0,6,60.0,6,60.0
+cs_neutral_016,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.588448,0.432666,0.57287,1.0,1.0,0.562491,0.434835,0.995447,1.0,6,60.0,6,60.0
+cs_neutral_017,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.339803,0.811558,0.670032,0.98606,1.0,0.439333,0.598711,0.979975,1.0,4,40.0,4,40.0
+cs_neutral_017,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.418607,0.730235,0.574421,0.946212,1.0,0.439333,0.598711,0.979975,1.0,5,50.0,4,40.0
+cs_neutral_017,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.478138,0.576238,0.507568,0.993652,1.0,0.439333,0.598711,0.979975,1.0,4,40.0,4,40.0
+cs_neutral_017,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.485671,0.517696,0.488874,0.999684,1.0,0.439333,0.598711,0.979975,1.0,5,50.0,4,40.0
+cs_neutral_018,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.493344,0.651269,0.603892,0.979236,1.0,0.634653,0.417147,0.999794,1.0,6,60.0,7,70.0
+cs_neutral_018,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.57229,0.565831,0.569061,0.975144,1.0,0.634653,0.417147,0.999794,1.0,8,80.0,7,70.0
+cs_neutral_018,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.622229,0.4652,0.57512,0.996647,1.0,0.634653,0.417147,0.999794,1.0,6,60.0,7,70.0
+cs_neutral_018,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.636729,0.415829,0.614639,0.999999,1.0,0.634653,0.417147,0.999794,1.0,7,70.0,7,70.0
+cs_neutral_019,neutral,Machine Learning,Unknown,Unknown,0.3,50,0.593636,0.505477,0.531925,0.972556,1.0,0.728962,0.310921,0.975569,1.0,4,40.0,4,40.0
+cs_neutral_019,neutral,Machine Learning,Unknown,Unknown,0.5,50,0.718575,0.383555,0.551065,0.975539,1.0,0.728962,0.310921,0.975569,1.0,5,50.0,4,40.0
+cs_neutral_019,neutral,Machine Learning,Unknown,Unknown,0.7,50,0.773023,0.252663,0.616915,0.999732,1.0,0.728962,0.310921,0.975569,1.0,4,40.0,4,40.0
+cs_neutral_019,neutral,Machine Learning,Unknown,Unknown,0.9,50,0.777131,0.226868,0.722105,0.99997,1.0,0.728962,0.310921,0.975569,1.0,4,40.0,4,40.0
+cs_neutral_020,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.460555,0.642555,0.587955,0.956845,1.0,0.577524,0.464459,0.998494,1.0,7,70.0,5,50.0
+cs_neutral_020,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.510749,0.615561,0.563155,0.970865,1.0,0.577524,0.464459,0.998494,1.0,6,60.0,5,50.0
+cs_neutral_020,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.576301,0.5222,0.56007,0.995888,1.0,0.577524,0.464459,0.998494,1.0,5,50.0,5,50.0
+cs_neutral_020,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.588517,0.451498,0.574815,0.999742,1.0,0.577524,0.464459,0.998494,1.0,5,50.0,5,50.0
+cs_neutral_021,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.549951,0.582823,0.572962,0.972849,1.0,0.57592,0.504986,0.993082,1.0,6,60.0,8,80.0
+cs_neutral_021,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.577415,0.547988,0.562701,0.982482,1.0,0.57592,0.504986,0.993082,1.0,8,80.0,8,80.0
+cs_neutral_021,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.602713,0.512679,0.575703,0.998074,1.0,0.57592,0.504986,0.993082,1.0,9,90.0,8,80.0
+cs_neutral_021,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.611332,0.484731,0.598672,0.999685,1.0,0.57592,0.504986,0.993082,1.0,9,90.0,8,80.0
+cs_neutral_022,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.459756,0.705119,0.63151,0.955779,1.0,0.570571,0.487412,0.971491,1.0,5,50.0,3,30.0
+cs_neutral_022,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.517753,0.617536,0.567645,0.980805,1.0,0.570571,0.487412,0.971491,1.0,4,40.0,3,30.0
+cs_neutral_022,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.589262,0.462538,0.551245,0.996362,1.0,0.570571,0.487412,0.971491,1.0,5,50.0,3,30.0
+cs_neutral_022,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.594949,0.431033,0.578557,0.999869,1.0,0.570571,0.487412,0.971491,1.0,3,30.0,3,30.0
+cs_neutral_023,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.458576,0.586264,0.547958,0.950966,1.0,0.577468,0.452225,0.994319,1.0,8,80.0,8,80.0
+cs_neutral_023,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.531469,0.548481,0.539975,0.982571,1.0,0.577468,0.452225,0.994319,1.0,7,70.0,8,80.0
+cs_neutral_023,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.59795,0.427446,0.546799,0.997272,1.0,0.577468,0.452225,0.994319,1.0,9,90.0,8,80.0
+cs_neutral_023,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.60149,0.393159,0.580657,1.0,1.0,0.577468,0.452225,0.994319,1.0,9,90.0,8,80.0
+cs_neutral_024,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.488234,0.635719,0.591473,0.978365,1.0,0.608838,0.432503,0.995074,1.0,6,60.0,7,70.0
+cs_neutral_024,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.57752,0.533658,0.555589,0.960204,1.0,0.608838,0.432503,0.995074,1.0,6,60.0,7,70.0
+cs_neutral_024,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.612728,0.460364,0.567018,0.997699,1.0,0.608838,0.432503,0.995074,1.0,6,60.0,7,70.0
+cs_neutral_024,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.624612,0.391855,0.601337,0.999869,1.0,0.608838,0.432503,0.995074,1.0,6,60.0,7,70.0
+cs_neutral_025,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.387447,0.724328,0.623264,0.959524,1.0,0.472221,0.547498,0.987642,1.0,9,90.0,8,80.0
+cs_neutral_025,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.443414,0.65653,0.549972,0.991537,1.0,0.472221,0.547498,0.987642,1.0,9,90.0,8,80.0
+cs_neutral_025,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.497999,0.628213,0.537063,0.992618,1.0,0.472221,0.547498,0.987642,1.0,10,100.0,8,80.0
+cs_neutral_025,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.508028,0.594411,0.516666,0.999419,1.0,0.472221,0.547498,0.987642,1.0,8,80.0,8,80.0
+cs_neutral_026,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.4266,0.672295,0.598586,0.959297,1.0,0.613326,0.402489,0.998599,1.0,9,90.0,6,60.0
+cs_neutral_026,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.560443,0.536471,0.548457,0.961946,1.0,0.613326,0.402489,0.998599,1.0,7,70.0,6,60.0
+cs_neutral_026,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.604273,0.434146,0.553234,0.997226,1.0,0.613326,0.402489,0.998599,1.0,7,70.0,6,60.0
+cs_neutral_026,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.619082,0.382668,0.59544,0.99947,1.0,0.613326,0.402489,0.998599,1.0,6,60.0,6,60.0
+cs_neutral_027,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.394829,0.727324,0.627576,0.960771,1.0,0.435583,0.617005,0.969628,0.1,5,50.0,7,70.0
+cs_neutral_027,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.410787,0.701449,0.556118,0.976144,1.0,0.435583,0.617005,0.969628,0.1,6,60.0,7,70.0
+cs_neutral_027,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.44366,0.645762,0.50429,0.996397,1.0,0.435583,0.617005,0.969628,0.1,7,70.0,7,70.0
+cs_neutral_027,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.457827,0.593815,0.471426,0.999898,1.0,0.435583,0.617005,0.969628,0.1,8,80.0,7,70.0
+cs_neutral_028,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.445552,0.664043,0.598496,0.966773,1.0,0.558979,0.461359,0.983013,1.0,5,50.0,9,90.0
+cs_neutral_028,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.514456,0.607821,0.561139,0.949503,1.0,0.558979,0.461359,0.983013,1.0,6,60.0,9,90.0
+cs_neutral_028,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.559576,0.515122,0.54624,0.996038,1.0,0.558979,0.461359,0.983013,1.0,7,70.0,9,90.0
+cs_neutral_028,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.580659,0.417157,0.564308,0.999736,1.0,0.558979,0.461359,0.983013,1.0,8,80.0,9,90.0
+cs_neutral_029,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.472888,0.669518,0.610529,0.956713,1.0,0.519512,0.546186,0.995226,1.0,6,60.0,4,40.0
+cs_neutral_029,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.497237,0.643386,0.570311,0.979948,1.0,0.519512,0.546186,0.995226,1.0,7,70.0,4,40.0
+cs_neutral_029,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.539122,0.576097,0.550215,0.997266,1.0,0.519512,0.546186,0.995226,1.0,6,60.0,4,40.0
+cs_neutral_029,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.54208,0.549158,0.542787,0.999843,1.0,0.519512,0.546186,0.995226,1.0,6,60.0,4,40.0
+cs_neutral_030,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.494433,0.654378,0.606394,0.992205,1.0,0.573204,0.442864,0.989538,1.0,7,70.0,5,50.0
+cs_neutral_030,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.514368,0.633141,0.573755,0.982962,1.0,0.573204,0.442864,0.989538,1.0,6,60.0,5,50.0
+cs_neutral_030,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.567317,0.54216,0.55977,0.985946,1.0,0.573204,0.442864,0.989538,1.0,5,50.0,5,50.0
+cs_neutral_030,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.577732,0.48166,0.568125,0.999868,1.0,0.573204,0.442864,0.989538,1.0,5,50.0,5,50.0
+cs_neutral_031,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.46289,0.689334,0.621401,0.978959,1.0,0.534001,0.524107,0.982239,1.0,6,60.0,9,90.0
+cs_neutral_031,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.527725,0.60704,0.567383,0.985684,1.0,0.534001,0.524107,0.982239,1.0,7,70.0,9,90.0
+cs_neutral_031,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.556287,0.546171,0.553252,0.991698,1.0,0.534001,0.524107,0.982239,1.0,8,80.0,9,90.0
+cs_neutral_031,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.566435,0.522232,0.562014,0.999153,1.0,0.534001,0.524107,0.982239,1.0,8,80.0,9,90.0
+cs_neutral_032,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.447387,0.706621,0.628851,0.987066,1.0,0.604593,0.46481,0.999033,1.0,6,60.0,6,60.0
+cs_neutral_032,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.593129,0.537314,0.565221,0.957776,1.0,0.604593,0.46481,0.999033,1.0,8,80.0,6,60.0
+cs_neutral_032,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.61098,0.495325,0.576283,0.998986,1.0,0.604593,0.46481,0.999033,1.0,8,80.0,6,60.0
+cs_neutral_032,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.618461,0.465955,0.603211,0.999799,1.0,0.604593,0.46481,0.999033,1.0,6,60.0,6,60.0
+cs_neutral_033,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.403602,0.730082,0.632138,0.981033,1.0,0.449132,0.672711,0.998613,1.0,7,70.0,6,60.0
+cs_neutral_033,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.427474,0.701083,0.564279,0.983758,1.0,0.449132,0.672711,0.998613,1.0,7,70.0,6,60.0
+cs_neutral_033,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.447061,0.688601,0.519523,0.994079,1.0,0.449132,0.672711,0.998613,1.0,7,70.0,6,60.0
+cs_neutral_033,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.466684,0.630139,0.483029,0.999165,1.0,0.449132,0.672711,0.998613,1.0,6,60.0,6,60.0
+cs_neutral_034,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.398966,0.663472,0.58412,0.958889,1.0,0.532823,0.437894,0.99559,1.0,8,80.0,7,70.0
+cs_neutral_034,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.469143,0.615357,0.54225,0.965177,1.0,0.532823,0.437894,0.99559,1.0,6,60.0,7,70.0
+cs_neutral_034,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.541334,0.491658,0.526431,0.992299,1.0,0.532823,0.437894,0.99559,1.0,7,70.0,7,70.0
+cs_neutral_034,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.558542,0.406724,0.54336,0.99973,1.0,0.532823,0.437894,0.99559,1.0,7,70.0,7,70.0
+cs_neutral_035,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.510225,0.617388,0.585239,0.978359,1.0,0.56012,0.52746,0.989951,1.0,5,50.0,5,50.0
+cs_neutral_035,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.558927,0.569555,0.564241,0.993558,1.0,0.56012,0.52746,0.989951,1.0,6,60.0,5,50.0
+cs_neutral_035,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.575245,0.524105,0.559903,0.992763,1.0,0.56012,0.52746,0.989951,1.0,6,60.0,5,50.0
+cs_neutral_035,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.57858,0.518556,0.572578,0.999578,1.0,0.56012,0.52746,0.989951,1.0,6,60.0,5,50.0
+cs_neutral_036,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.458883,0.679453,0.613282,0.971539,1.0,0.600856,0.461745,0.996474,1.0,6,60.0,7,70.0
+cs_neutral_036,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.525128,0.634228,0.579678,0.961241,1.0,0.600856,0.461745,0.996474,1.0,6,60.0,7,70.0
+cs_neutral_036,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.590848,0.515534,0.568254,0.997327,1.0,0.600856,0.461745,0.996474,1.0,6,60.0,7,70.0
+cs_neutral_036,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.615089,0.43133,0.596713,0.999598,1.0,0.600856,0.461745,0.996474,1.0,8,80.0,7,70.0
+cs_neutral_037,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.467743,0.691661,0.624486,0.988881,1.0,0.593145,0.515895,0.997676,1.0,5,50.0,6,60.0
+cs_neutral_037,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.506849,0.655959,0.581404,0.980718,1.0,0.593145,0.515895,0.997676,1.0,4,40.0,6,60.0
+cs_neutral_037,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.584686,0.563967,0.57847,0.995879,1.0,0.593145,0.515895,0.997676,1.0,6,60.0,6,60.0
+cs_neutral_037,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.602922,0.504143,0.593044,0.999996,1.0,0.593145,0.515895,0.997676,1.0,7,70.0,6,60.0
+cs_neutral_038,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.400659,0.753744,0.647819,0.951716,1.0,0.497356,0.532178,0.995998,1.0,8,80.0,8,80.0
+cs_neutral_038,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.449266,0.714599,0.581932,0.980734,1.0,0.497356,0.532178,0.995998,1.0,6,60.0,8,80.0
+cs_neutral_038,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.499344,0.646553,0.543507,0.992006,1.0,0.497356,0.532178,0.995998,1.0,6,60.0,8,80.0
+cs_neutral_038,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.51887,0.569924,0.523976,0.99969,1.0,0.497356,0.532178,0.995998,1.0,8,80.0,8,80.0
+cs_neutral_039,neutral,Natural Language Processing,Unknown,Unknown,0.3,50,0.528043,0.668697,0.626501,0.964622,1.0,0.611968,0.508254,0.997762,1.0,8,80.0,6,60.0
+cs_neutral_039,neutral,Natural Language Processing,Unknown,Unknown,0.5,50,0.58959,0.562188,0.575889,0.989349,1.0,0.611968,0.508254,0.997762,1.0,7,70.0,6,60.0
+cs_neutral_039,neutral,Natural Language Processing,Unknown,Unknown,0.7,50,0.617174,0.519325,0.58782,0.996162,1.0,0.611968,0.508254,0.997762,1.0,6,60.0,6,60.0
+cs_neutral_039,neutral,Natural Language Processing,Unknown,Unknown,0.9,50,0.625642,0.495362,0.612614,0.999913,1.0,0.611968,0.508254,0.997762,1.0,5,50.0,6,60.0
+cs_neutral_040,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.466435,0.651492,0.595975,0.970878,1.0,0.545472,0.481088,0.995373,1.0,6,60.0,6,60.0
+cs_neutral_040,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.505584,0.63263,0.569107,0.979885,1.0,0.545472,0.481088,0.995373,1.0,7,70.0,6,60.0
+cs_neutral_040,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.547677,0.578495,0.556923,0.993684,1.0,0.545472,0.481088,0.995373,1.0,5,50.0,6,60.0
+cs_neutral_040,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.559824,0.545071,0.558349,0.999372,1.0,0.545472,0.481088,0.995373,1.0,6,60.0,6,60.0
+cs_neutral_041,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.512241,0.646923,0.606518,0.976442,1.0,0.561866,0.530004,0.99043,1.0,4,40.0,6,60.0
+cs_neutral_041,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.546644,0.596868,0.571756,0.969946,1.0,0.561866,0.530004,0.99043,1.0,2,20.0,6,60.0
+cs_neutral_041,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.595154,0.505869,0.568369,0.998181,1.0,0.561866,0.530004,0.99043,1.0,5,50.0,6,60.0
+cs_neutral_041,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.600651,0.477241,0.58831,0.999875,1.0,0.561866,0.530004,0.99043,1.0,6,60.0,6,60.0
+cs_neutral_042,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.481969,0.674222,0.616546,0.98832,1.0,0.531799,0.514107,0.993047,1.0,7,70.0,4,40.0
+cs_neutral_042,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.506399,0.646862,0.576631,0.987671,1.0,0.531799,0.514107,0.993047,1.0,5,50.0,4,40.0
+cs_neutral_042,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.527669,0.590089,0.546395,0.992539,1.0,0.531799,0.514107,0.993047,1.0,5,50.0,4,40.0
+cs_neutral_042,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.545307,0.512262,0.542002,0.999688,1.0,0.531799,0.514107,0.993047,1.0,4,40.0,4,40.0
+cs_neutral_043,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.482823,0.665953,0.611014,0.928159,1.0,0.599431,0.473223,0.985912,1.0,7,70.0,6,60.0
+cs_neutral_043,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.577333,0.544845,0.561089,0.978698,1.0,0.599431,0.473223,0.985912,1.0,10,100.0,6,60.0
+cs_neutral_043,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.633207,0.433435,0.573275,0.997965,1.0,0.599431,0.473223,0.985912,1.0,9,90.0,6,60.0
+cs_neutral_043,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.641036,0.409783,0.617911,0.999831,1.0,0.599431,0.473223,0.985912,1.0,9,90.0,6,60.0
+cs_neutral_044,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.563305,0.543658,0.549552,0.98616,1.0,0.640879,0.431006,0.994147,1.0,8,80.0,7,70.0
+cs_neutral_044,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.614284,0.490787,0.552535,0.971203,1.0,0.640879,0.431006,0.994147,1.0,9,90.0,7,70.0
+cs_neutral_044,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.649972,0.431392,0.584398,0.998123,1.0,0.640879,0.431006,0.994147,1.0,8,80.0,7,70.0
+cs_neutral_044,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.656858,0.401461,0.631319,0.999997,1.0,0.640879,0.431006,0.994147,1.0,8,80.0,7,70.0
+cs_neutral_045,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.461165,0.61364,0.567898,0.964178,1.0,0.533825,0.4809,0.989111,1.0,5,50.0,6,60.0
+cs_neutral_045,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.511758,0.579292,0.545525,0.969354,1.0,0.533825,0.4809,0.989111,1.0,8,80.0,6,60.0
+cs_neutral_045,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.558726,0.484918,0.536583,0.990957,1.0,0.533825,0.4809,0.989111,1.0,5,50.0,6,60.0
+cs_neutral_045,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.560712,0.473589,0.552,0.999855,1.0,0.533825,0.4809,0.989111,1.0,4,40.0,6,60.0
+cs_neutral_046,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.485991,0.62423,0.582758,0.975946,1.0,0.561329,0.49642,0.995216,1.0,8,80.0,7,70.0
+cs_neutral_046,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.532357,0.59096,0.561659,0.990373,1.0,0.561329,0.49642,0.995216,1.0,8,80.0,7,70.0
+cs_neutral_046,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.578689,0.495797,0.553822,0.998388,1.0,0.561329,0.49642,0.995216,1.0,7,70.0,7,70.0
+cs_neutral_046,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.590259,0.433182,0.574551,0.999812,1.0,0.561329,0.49642,0.995216,1.0,7,70.0,7,70.0
+cs_neutral_047,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.539776,0.591709,0.576129,0.97857,1.0,0.678101,0.386932,0.996236,1.0,3,30.0,7,70.0
+cs_neutral_047,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.619625,0.517889,0.568757,0.988549,1.0,0.678101,0.386932,0.996236,1.0,6,60.0,7,70.0
+cs_neutral_047,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.681494,0.391459,0.594484,0.998831,1.0,0.678101,0.386932,0.996236,1.0,6,60.0,7,70.0
+cs_neutral_047,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.69352,0.320768,0.656245,0.99995,1.0,0.678101,0.386932,0.996236,1.0,5,50.0,7,70.0
+cs_neutral_048,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.448706,0.726186,0.642942,0.986625,1.0,0.538249,0.550104,0.983171,1.0,6,60.0,5,50.0
+cs_neutral_048,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.506823,0.653639,0.580231,0.983354,1.0,0.538249,0.550104,0.983171,1.0,5,50.0,5,50.0
+cs_neutral_048,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.536648,0.583983,0.550848,0.984913,1.0,0.538249,0.550104,0.983171,1.0,6,60.0,5,50.0
+cs_neutral_048,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.553366,0.515582,0.549588,0.999428,1.0,0.538249,0.550104,0.983171,1.0,6,60.0,5,50.0
+cs_neutral_049,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.5066,0.621485,0.58702,0.972875,1.0,0.671366,0.304729,0.998478,1.0,6,60.0,7,70.0
+cs_neutral_049,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.590406,0.536285,0.563345,0.97965,1.0,0.671366,0.304729,0.998478,1.0,5,50.0,7,70.0
+cs_neutral_049,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.666844,0.393664,0.58489,0.995127,1.0,0.671366,0.304729,0.998478,1.0,8,80.0,7,70.0
+cs_neutral_049,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.677415,0.327025,0.642376,0.999869,1.0,0.671366,0.304729,0.998478,1.0,8,80.0,7,70.0
+cs_neutral_050,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.402823,0.684157,0.599757,0.964498,1.0,0.496382,0.524583,0.995303,1.0,5,50.0,3,30.0
+cs_neutral_050,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.446424,0.647075,0.546749,0.969543,1.0,0.496382,0.524583,0.995303,1.0,4,40.0,3,30.0
+cs_neutral_050,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.503444,0.53763,0.513699,0.997989,1.0,0.496382,0.524583,0.995303,1.0,4,40.0,3,30.0
+cs_neutral_050,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.520041,0.470996,0.515136,0.999823,1.0,0.496382,0.524583,0.995303,1.0,3,30.0,3,30.0
+cs_neutral_051,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.474536,0.671578,0.612465,0.975058,1.0,0.633069,0.405306,0.991181,1.0,9,90.0,6,60.0
+cs_neutral_051,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.547781,0.591385,0.569583,0.959753,1.0,0.633069,0.405306,0.991181,1.0,9,90.0,6,60.0
+cs_neutral_051,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.64917,0.39203,0.572028,0.993602,1.0,0.633069,0.405306,0.991181,1.0,6,60.0,6,60.0
+cs_neutral_051,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.654344,0.363238,0.625233,0.999308,1.0,0.633069,0.405306,0.991181,1.0,5,50.0,6,60.0
+cs_neutral_052,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.513905,0.633831,0.597853,0.969413,1.0,0.629302,0.466533,0.990578,1.0,7,70.0,5,50.0
+cs_neutral_052,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.577864,0.578852,0.578358,0.975895,1.0,0.629302,0.466533,0.990578,1.0,4,40.0,5,50.0
+cs_neutral_052,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.638779,0.450316,0.58224,0.998074,1.0,0.629302,0.466533,0.990578,1.0,5,50.0,5,50.0
+cs_neutral_052,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.644737,0.422892,0.622553,1.0,1.0,0.629302,0.466533,0.990578,1.0,4,40.0,5,50.0
+cs_neutral_053,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.503193,0.622653,0.586815,0.976065,1.0,0.577634,0.48732,0.969806,1.0,5,50.0,6,60.0
+cs_neutral_053,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.537003,0.598704,0.567854,0.985488,1.0,0.577634,0.48732,0.969806,1.0,7,70.0,6,60.0
+cs_neutral_053,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.591262,0.505653,0.56558,0.991552,1.0,0.577634,0.48732,0.969806,1.0,7,70.0,6,60.0
+cs_neutral_053,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.604622,0.447729,0.588933,0.999705,1.0,0.577634,0.48732,0.969806,1.0,8,80.0,6,60.0
+cs_neutral_054,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.410305,0.765823,0.659168,0.953149,1.0,0.576746,0.458782,0.985957,1.0,5,50.0,6,60.0
+cs_neutral_054,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.505904,0.673302,0.589603,0.955005,1.0,0.576746,0.458782,0.985957,1.0,6,60.0,6,60.0
+cs_neutral_054,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.5528,0.59412,0.565196,0.999972,1.0,0.576746,0.458782,0.985957,1.0,7,70.0,6,60.0
+cs_neutral_054,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.578229,0.485644,0.56897,0.999858,1.0,0.576746,0.458782,0.985957,1.0,7,70.0,6,60.0
+cs_neutral_055,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.46571,0.675969,0.612892,0.987146,1.0,0.588893,0.447046,0.997699,1.0,9,90.0,7,70.0
+cs_neutral_055,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.503631,0.661303,0.582467,0.985071,1.0,0.588893,0.447046,0.997699,1.0,8,80.0,7,70.0
+cs_neutral_055,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.608276,0.446929,0.559872,0.989637,1.0,0.588893,0.447046,0.997699,1.0,6,60.0,7,70.0
+cs_neutral_055,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.620176,0.379279,0.596087,0.99996,1.0,0.588893,0.447046,0.997699,1.0,6,60.0,7,70.0
+cs_neutral_056,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.451474,0.703467,0.627869,0.976775,1.0,0.578959,0.468233,0.991392,1.0,3,30.0,5,50.0
+cs_neutral_056,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.515378,0.657569,0.586474,0.956454,1.0,0.578959,0.468233,0.991392,1.0,7,70.0,5,50.0
+cs_neutral_056,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.584871,0.498621,0.558996,0.999068,1.0,0.578959,0.468233,0.991392,1.0,7,70.0,5,50.0
+cs_neutral_056,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.584871,0.498621,0.576246,0.99989,1.0,0.578959,0.468233,0.991392,1.0,7,70.0,5,50.0
+cs_neutral_057,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.49911,0.647316,0.602854,0.980779,1.0,0.587473,0.500659,0.984599,1.0,7,70.0,8,80.0
+cs_neutral_057,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.551942,0.593205,0.572574,0.965903,1.0,0.587473,0.500659,0.984599,1.0,8,80.0,8,80.0
+cs_neutral_057,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.595048,0.487359,0.562742,0.997784,1.0,0.587473,0.500659,0.984599,1.0,9,90.0,8,80.0
+cs_neutral_057,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.601552,0.452193,0.586616,0.999692,1.0,0.587473,0.500659,0.984599,1.0,9,90.0,8,80.0
+cs_neutral_058,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.478594,0.641715,0.592778,0.977654,1.0,0.558084,0.483533,0.999284,1.0,4,40.0,6,60.0
+cs_neutral_058,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.53819,0.574146,0.556168,0.981145,1.0,0.558084,0.483533,0.999284,1.0,4,40.0,6,60.0
+cs_neutral_058,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.566688,0.519275,0.552464,0.998679,1.0,0.558084,0.483533,0.999284,1.0,6,60.0,6,60.0
+cs_neutral_058,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.572938,0.488629,0.564507,0.999863,1.0,0.558084,0.483533,0.999284,1.0,6,60.0,6,60.0
+cs_neutral_059,neutral,Computer Vision,Unknown,Unknown,0.3,50,0.46699,0.649167,0.594514,0.953203,1.0,0.624925,0.42531,0.997744,1.0,7,70.0,8,80.0
+cs_neutral_059,neutral,Computer Vision,Unknown,Unknown,0.5,50,0.551781,0.589323,0.570552,0.96971,1.0,0.624925,0.42531,0.997744,1.0,6,60.0,8,80.0
+cs_neutral_059,neutral,Computer Vision,Unknown,Unknown,0.7,50,0.630274,0.418535,0.566752,0.99799,1.0,0.624925,0.42531,0.997744,1.0,8,80.0,8,80.0
+cs_neutral_059,neutral,Computer Vision,Unknown,Unknown,0.9,50,0.630274,0.418535,0.6091,0.999915,1.0,0.624925,0.42531,0.997744,1.0,8,80.0,8,80.0
+cs_neutral_060,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.429208,0.735418,0.643555,0.990336,1.0,0.489155,0.612117,0.992598,1.0,8,80.0,7,70.0
+cs_neutral_060,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.455933,0.694065,0.574999,0.99814,1.0,0.489155,0.612117,0.992598,1.0,7,70.0,7,70.0
+cs_neutral_060,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.503569,0.619002,0.538199,0.990746,1.0,0.489155,0.612117,0.992598,1.0,4,40.0,7,70.0
+cs_neutral_060,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.508316,0.598568,0.517341,0.999873,1.0,0.489155,0.612117,0.992598,1.0,4,40.0,7,70.0
+cs_neutral_061,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.469075,0.666562,0.607316,0.995215,1.0,0.518663,0.567776,0.997709,1.0,8,80.0,7,70.0
+cs_neutral_061,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.503434,0.645086,0.57426,0.99706,1.0,0.518663,0.567776,0.997709,1.0,6,60.0,7,70.0
+cs_neutral_061,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.513237,0.616985,0.544361,0.993644,1.0,0.518663,0.567776,0.997709,1.0,7,70.0,7,70.0
+cs_neutral_061,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.523985,0.580705,0.529657,0.995775,1.0,0.518663,0.567776,0.997709,1.0,7,70.0,7,70.0
+cs_neutral_062,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.402999,0.679243,0.59637,0.995735,1.0,0.468698,0.483141,0.947282,0.5,3,30.0,6,60.0
+cs_neutral_062,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.44972,0.628661,0.539191,0.992364,1.0,0.468698,0.483141,0.947282,0.5,3,30.0,6,60.0
+cs_neutral_062,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.486083,0.571653,0.511754,0.996898,1.0,0.468698,0.483141,0.947282,0.5,4,40.0,6,60.0
+cs_neutral_062,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.500434,0.508417,0.501232,0.999286,1.0,0.468698,0.483141,0.947282,0.5,4,40.0,6,60.0
+cs_neutral_063,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.348428,0.766079,0.640784,0.967393,1.0,0.514545,0.576994,0.988442,1.0,4,40.0,5,50.0
+cs_neutral_063,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.487118,0.654349,0.570733,0.975067,1.0,0.514545,0.576994,0.988442,1.0,6,60.0,5,50.0
+cs_neutral_063,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.521254,0.589688,0.541784,0.997671,1.0,0.514545,0.576994,0.988442,1.0,7,70.0,5,50.0
+cs_neutral_063,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.534237,0.558963,0.53671,0.999984,1.0,0.514545,0.576994,0.988442,1.0,5,50.0,5,50.0
+cs_neutral_064,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.3541,0.785039,0.655757,0.986122,1.0,0.421362,0.67336,0.949744,0.142857,7,70.0,7,70.0
+cs_neutral_064,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.398347,0.744886,0.571616,0.984231,1.0,0.421362,0.67336,0.949744,0.142857,6,60.0,7,70.0
+cs_neutral_064,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.441764,0.67918,0.512989,0.990975,1.0,0.421362,0.67336,0.949744,0.142857,8,80.0,7,70.0
+cs_neutral_064,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.448765,0.636422,0.467531,0.999888,1.0,0.421362,0.67336,0.949744,0.142857,8,80.0,7,70.0
+cs_neutral_065,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.374331,0.76377,0.646938,0.932184,1.0,0.522944,0.348756,0.997422,1.0,8,80.0,5,50.0
+cs_neutral_065,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.447767,0.688496,0.568132,0.946839,1.0,0.522944,0.348756,0.997422,1.0,8,80.0,5,50.0
+cs_neutral_065,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.515579,0.555105,0.527437,0.98791,1.0,0.522944,0.348756,0.997422,1.0,8,80.0,5,50.0
+cs_neutral_065,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.54234,0.375775,0.525683,0.99983,1.0,0.522944,0.348756,0.997422,1.0,6,60.0,5,50.0
+cs_neutral_066,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.35291,0.787114,0.656853,0.987167,0.0,0.39911,0.682659,0.966761,0.0,6,60.0,7,70.0
+cs_neutral_066,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.370535,0.768237,0.569386,0.992328,0.0,0.39911,0.682659,0.966761,0.0,8,80.0,7,70.0
+cs_neutral_066,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.393598,0.755343,0.502122,0.982992,0.0,0.39911,0.682659,0.966761,0.0,8,80.0,7,70.0
+cs_neutral_066,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.429196,0.630533,0.449329,0.996084,0.0,0.39911,0.682659,0.966761,0.0,8,80.0,7,70.0
+cs_neutral_067,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.380372,0.734184,0.62804,0.934571,1.0,0.492427,0.560324,0.991264,1.0,5,50.0,5,50.0
+cs_neutral_067,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.465891,0.667947,0.566919,0.982195,1.0,0.492427,0.560324,0.991264,1.0,3,30.0,5,50.0
+cs_neutral_067,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.495548,0.585873,0.522646,0.999209,1.0,0.492427,0.560324,0.991264,1.0,4,40.0,5,50.0
+cs_neutral_067,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.505247,0.544086,0.509131,0.99988,1.0,0.492427,0.560324,0.991264,1.0,3,30.0,5,50.0
+cs_neutral_068,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.382073,0.767935,0.652176,0.983256,1.0,0.534144,0.446621,0.988721,1.0,6,60.0,8,80.0
+cs_neutral_068,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.426517,0.745625,0.586071,0.952152,1.0,0.534144,0.446621,0.988721,1.0,5,50.0,8,80.0
+cs_neutral_068,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.541993,0.526833,0.537445,0.985617,1.0,0.534144,0.446621,0.988721,1.0,7,70.0,8,80.0
+cs_neutral_068,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.55163,0.445151,0.540982,1.0,1.0,0.534144,0.446621,0.988721,1.0,7,70.0,8,80.0
+cs_neutral_069,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.391699,0.763731,0.652121,0.978901,1.0,0.494828,0.616437,0.997068,1.0,5,50.0,7,70.0
+cs_neutral_069,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.438373,0.713166,0.575769,0.979088,1.0,0.494828,0.616437,0.997068,1.0,5,50.0,7,70.0
+cs_neutral_069,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.474073,0.679356,0.535658,0.985708,1.0,0.494828,0.616437,0.997068,1.0,6,60.0,7,70.0
+cs_neutral_069,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.497921,0.590181,0.507147,0.998231,1.0,0.494828,0.616437,0.997068,1.0,7,70.0,7,70.0
+cs_neutral_070,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.454404,0.670449,0.605635,0.992668,1.0,0.546878,0.482169,0.986866,1.0,8,80.0,3,30.0
+cs_neutral_070,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.506725,0.620947,0.563836,0.985482,1.0,0.546878,0.482169,0.986866,1.0,4,40.0,3,30.0
+cs_neutral_070,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.540529,0.551222,0.543737,0.994526,1.0,0.546878,0.482169,0.986866,1.0,4,40.0,3,30.0
+cs_neutral_070,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.557071,0.46973,0.548337,0.997926,1.0,0.546878,0.482169,0.986866,1.0,4,40.0,3,30.0
+cs_neutral_071,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.358887,0.786621,0.658301,0.979103,1.0,0.374162,0.686112,0.978504,1.0,6,60.0,5,50.0
+cs_neutral_071,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.394389,0.741763,0.568076,0.986773,1.0,0.374162,0.686112,0.978504,1.0,5,50.0,5,50.0
+cs_neutral_071,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.406376,0.708489,0.49701,0.99549,1.0,0.374162,0.686112,0.978504,1.0,5,50.0,5,50.0
+cs_neutral_071,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.414085,0.674057,0.440082,0.999372,1.0,0.374162,0.686112,0.978504,1.0,3,30.0,5,50.0
+cs_neutral_072,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.406559,0.728722,0.632073,0.982619,1.0,0.522549,0.48907,0.994828,1.0,6,60.0,3,30.0
+cs_neutral_072,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.455708,0.699242,0.577475,0.988491,1.0,0.522549,0.48907,0.994828,1.0,7,70.0,3,30.0
+cs_neutral_072,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.51925,0.64183,0.556024,0.994229,1.0,0.522549,0.48907,0.994828,1.0,5,50.0,3,30.0
+cs_neutral_072,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.532078,0.539484,0.532819,0.999508,1.0,0.522549,0.48907,0.994828,1.0,4,40.0,3,30.0
+cs_neutral_073,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.361525,0.822693,0.684343,0.980391,1.0,0.467278,0.616608,0.996076,1.0,4,40.0,9,90.0
+cs_neutral_073,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.406047,0.773143,0.589595,0.976186,1.0,0.467278,0.616608,0.996076,1.0,6,60.0,9,90.0
+cs_neutral_073,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.461981,0.694628,0.531775,0.977981,1.0,0.467278,0.616608,0.996076,1.0,8,80.0,9,90.0
+cs_neutral_073,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.476816,0.644749,0.493609,0.999145,1.0,0.467278,0.616608,0.996076,1.0,8,80.0,9,90.0
+cs_neutral_074,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.427238,0.749527,0.652841,0.974532,1.0,0.471247,0.63889,0.995433,1.0,4,40.0,5,50.0
+cs_neutral_074,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.441639,0.728023,0.584831,0.981591,1.0,0.471247,0.63889,0.995433,1.0,4,40.0,5,50.0
+cs_neutral_074,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.483247,0.656252,0.535149,0.996913,1.0,0.471247,0.63889,0.995433,1.0,7,70.0,5,50.0
+cs_neutral_074,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.48823,0.645368,0.503944,0.999807,1.0,0.471247,0.63889,0.995433,1.0,6,60.0,5,50.0
+cs_neutral_075,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.438253,0.754348,0.65952,0.986572,1.0,0.466726,0.684297,0.985479,0.1,7,70.0,6,60.0
+cs_neutral_075,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.465171,0.736781,0.600976,0.989601,1.0,0.466726,0.684297,0.985479,0.1,8,80.0,6,60.0
+cs_neutral_075,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.479288,0.70886,0.54816,0.989267,1.0,0.466726,0.684297,0.985479,0.1,7,70.0,6,60.0
+cs_neutral_075,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.487009,0.66418,0.504726,0.999399,1.0,0.466726,0.684297,0.985479,0.1,6,60.0,6,60.0
+cs_neutral_076,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.423092,0.7156,0.627848,0.958271,1.0,0.484089,0.61304,0.997221,1.0,6,60.0,6,60.0
+cs_neutral_076,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.451737,0.668232,0.559985,0.983283,1.0,0.484089,0.61304,0.997221,1.0,7,70.0,6,60.0
+cs_neutral_076,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.482988,0.629881,0.527056,0.998752,1.0,0.484089,0.61304,0.997221,1.0,6,60.0,6,60.0
+cs_neutral_076,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.486676,0.609153,0.498924,0.99945,1.0,0.484089,0.61304,0.997221,1.0,6,60.0,6,60.0
+cs_neutral_077,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.557286,0.587813,0.578655,0.972907,1.0,0.657296,0.403916,0.986059,1.0,9,90.0,7,70.0
+cs_neutral_077,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.610691,0.515175,0.562933,0.998993,1.0,0.657296,0.403916,0.986059,1.0,9,90.0,7,70.0
+cs_neutral_077,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.656486,0.435488,0.590187,0.996288,1.0,0.657296,0.403916,0.986059,1.0,9,90.0,7,70.0
+cs_neutral_077,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.666545,0.389622,0.638852,0.999728,1.0,0.657296,0.403916,0.986059,1.0,8,80.0,7,70.0
+cs_neutral_078,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.360491,0.787095,0.659114,0.96667,0.0,0.399453,0.642464,0.983134,0.0,7,70.0,5,50.0
+cs_neutral_078,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.376234,0.763851,0.570042,0.988408,0.0,0.399453,0.642464,0.983134,0.0,6,60.0,5,50.0
+cs_neutral_078,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.41749,0.680427,0.496371,0.996208,0.0,0.399453,0.642464,0.983134,0.0,6,60.0,5,50.0
+cs_neutral_078,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.428206,0.661114,0.451497,0.999024,0.0,0.399453,0.642464,0.983134,0.0,6,60.0,5,50.0
+cs_neutral_079,neutral,Systems and Distributed Computing,Unknown,Unknown,0.3,50,0.477504,0.722323,0.648877,0.997593,1.0,0.582922,0.442044,0.99892,1.0,6,60.0,8,80.0
+cs_neutral_079,neutral,Systems and Distributed Computing,Unknown,Unknown,0.5,50,0.520907,0.677351,0.599129,0.980553,1.0,0.582922,0.442044,0.99892,1.0,4,40.0,8,80.0
+cs_neutral_079,neutral,Systems and Distributed Computing,Unknown,Unknown,0.7,50,0.5623,0.603991,0.574808,0.992427,1.0,0.582922,0.442044,0.99892,1.0,7,70.0,8,80.0
+cs_neutral_079,neutral,Systems and Distributed Computing,Unknown,Unknown,0.9,50,0.580812,0.465452,0.569276,0.999993,1.0,0.582922,0.442044,0.99892,1.0,8,80.0,8,80.0
+cs_neutral_080,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.390548,0.754806,0.645529,0.982082,1.0,0.476776,0.644253,0.996913,1.0,6,60.0,4,40.0
+cs_neutral_080,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.460376,0.687887,0.574132,0.992058,1.0,0.476776,0.644253,0.996913,1.0,2,20.0,4,40.0
+cs_neutral_080,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.496843,0.626896,0.535859,0.995504,1.0,0.476776,0.644253,0.996913,1.0,4,40.0,4,40.0
+cs_neutral_080,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.496843,0.626896,0.509848,0.999444,1.0,0.476776,0.644253,0.996913,1.0,4,40.0,4,40.0
+cs_neutral_081,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.468222,0.667043,0.607397,0.979424,1.0,0.517261,0.581341,0.954605,0.5,7,70.0,2,20.0
+cs_neutral_081,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.504636,0.635929,0.570282,0.986092,1.0,0.517261,0.581341,0.954605,0.5,4,40.0,2,20.0
+cs_neutral_081,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.533413,0.615369,0.558,0.999664,1.0,0.517261,0.581341,0.954605,0.5,4,40.0,2,20.0
+cs_neutral_081,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.553507,0.534546,0.551611,0.999793,1.0,0.517261,0.581341,0.954605,0.5,3,30.0,2,20.0
+cs_neutral_082,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.483817,0.592286,0.559745,0.954718,1.0,0.536722,0.488945,0.987544,1.0,7,70.0,7,70.0
+cs_neutral_082,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.523378,0.557827,0.540602,0.984907,1.0,0.536722,0.488945,0.987544,1.0,7,70.0,7,70.0
+cs_neutral_082,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.560413,0.50137,0.5427,0.99872,1.0,0.536722,0.488945,0.987544,1.0,8,80.0,7,70.0
+cs_neutral_082,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.566904,0.479495,0.558163,0.999522,1.0,0.536722,0.488945,0.987544,1.0,8,80.0,7,70.0
+cs_neutral_083,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.392189,0.803447,0.68007,0.969297,1.0,0.439752,0.682086,0.991596,1.0,4,40.0,6,60.0
+cs_neutral_083,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.41282,0.783516,0.598168,0.988869,1.0,0.439752,0.682086,0.991596,1.0,4,40.0,6,60.0
+cs_neutral_083,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.437263,0.735393,0.526702,0.995376,1.0,0.439752,0.682086,0.991596,1.0,4,40.0,6,60.0
+cs_neutral_083,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.453463,0.674219,0.475539,1.0,1.0,0.439752,0.682086,0.991596,1.0,5,50.0,6,60.0
+cs_neutral_084,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.510508,0.549082,0.53751,0.981662,1.0,0.56877,0.371563,0.995519,1.0,8,80.0,9,90.0
+cs_neutral_084,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.53935,0.500197,0.519773,0.980153,1.0,0.56877,0.371563,0.995519,1.0,5,50.0,9,90.0
+cs_neutral_084,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.56666,0.433705,0.526773,0.995657,1.0,0.56877,0.371563,0.995519,1.0,9,90.0,9,90.0
+cs_neutral_084,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.58591,0.350421,0.562361,0.999747,1.0,0.56877,0.371563,0.995519,1.0,10,100.0,9,90.0
+cs_neutral_085,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.406228,0.757719,0.652272,0.983243,1.0,0.491819,0.584048,0.99316,1.0,7,70.0,4,40.0
+cs_neutral_085,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.458406,0.719202,0.588804,0.975179,1.0,0.491819,0.584048,0.99316,1.0,7,70.0,4,40.0
+cs_neutral_085,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.49468,0.616552,0.531241,0.989919,1.0,0.491819,0.584048,0.99316,1.0,5,50.0,4,40.0
+cs_neutral_085,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.505113,0.567177,0.511319,0.999048,1.0,0.491819,0.584048,0.99316,1.0,5,50.0,4,40.0
+cs_neutral_086,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.413513,0.737654,0.640411,0.960775,1.0,0.48299,0.507231,0.993443,1.0,4,40.0,9,90.0
+cs_neutral_086,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.475598,0.655926,0.565762,0.971368,1.0,0.48299,0.507231,0.993443,1.0,5,50.0,9,90.0
+cs_neutral_086,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.484556,0.644018,0.532394,0.983705,1.0,0.48299,0.507231,0.993443,1.0,5,50.0,9,90.0
+cs_neutral_086,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.508659,0.542483,0.512041,0.998517,1.0,0.48299,0.507231,0.993443,1.0,7,70.0,9,90.0
+cs_neutral_087,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.569256,0.567666,0.568143,0.969783,1.0,0.702891,0.332748,0.995573,1.0,6,60.0,7,70.0
+cs_neutral_087,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.646154,0.479645,0.5629,0.975166,1.0,0.702891,0.332748,0.995573,1.0,9,90.0,7,70.0
+cs_neutral_087,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.71467,0.346375,0.604181,0.997118,1.0,0.702891,0.332748,0.995573,1.0,7,70.0,7,70.0
+cs_neutral_087,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.71595,0.331128,0.677467,0.999727,1.0,0.702891,0.332748,0.995573,1.0,6,60.0,7,70.0
+cs_neutral_088,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.502122,0.647526,0.603905,0.977119,1.0,0.609062,0.424941,0.997219,1.0,8,80.0,7,70.0
+cs_neutral_088,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.515216,0.636048,0.575632,0.96927,1.0,0.609062,0.424941,0.997219,1.0,8,80.0,7,70.0
+cs_neutral_088,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.613964,0.476368,0.572685,0.996584,1.0,0.609062,0.424941,0.997219,1.0,8,80.0,7,70.0
+cs_neutral_088,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.61998,0.441836,0.602165,0.999567,1.0,0.609062,0.424941,0.997219,1.0,8,80.0,7,70.0
+cs_neutral_089,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.385245,0.758092,0.646238,0.933782,1.0,0.424627,0.708242,0.958255,1.0,8,80.0,6,60.0
+cs_neutral_089,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.438226,0.716185,0.577206,0.971239,1.0,0.424627,0.708242,0.958255,1.0,7,70.0,6,60.0
+cs_neutral_089,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.466625,0.659665,0.524537,0.995657,1.0,0.424627,0.708242,0.958255,1.0,7,70.0,6,60.0
+cs_neutral_089,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.468858,0.646003,0.486572,0.999658,1.0,0.424627,0.708242,0.958255,1.0,7,70.0,6,60.0
+cs_neutral_090,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.689262,0.402198,0.488317,0.983665,1.0,0.770331,0.265567,0.999483,1.0,5,50.0,5,50.0
+cs_neutral_090,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.719258,0.368581,0.54392,0.988036,1.0,0.770331,0.265567,0.999483,1.0,6,60.0,5,50.0
+cs_neutral_090,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.772809,0.28546,0.626604,0.998265,1.0,0.770331,0.265567,0.999483,1.0,5,50.0,5,50.0
+cs_neutral_090,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.781814,0.241788,0.727811,0.999956,1.0,0.770331,0.265567,0.999483,1.0,6,60.0,5,50.0
+cs_neutral_091,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.645667,0.495646,0.540652,0.972088,1.0,0.749724,0.310156,0.988314,1.0,8,80.0,7,70.0
+cs_neutral_091,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.718357,0.387763,0.55306,0.985202,1.0,0.749724,0.310156,0.988314,1.0,8,80.0,7,70.0
+cs_neutral_091,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.762947,0.307679,0.626367,0.999201,1.0,0.749724,0.310156,0.988314,1.0,6,60.0,7,70.0
+cs_neutral_091,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.770874,0.274327,0.72122,0.999938,1.0,0.749724,0.310156,0.988314,1.0,7,70.0,7,70.0
+cs_neutral_092,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.449405,0.728929,0.645072,0.948737,1.0,0.62332,0.501797,0.995594,1.0,7,70.0,6,60.0
+cs_neutral_092,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.542497,0.656142,0.599319,0.97715,1.0,0.62332,0.501797,0.995594,1.0,4,40.0,6,60.0
+cs_neutral_092,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.636194,0.515689,0.600043,0.999576,1.0,0.62332,0.501797,0.995594,1.0,6,60.0,6,60.0
+cs_neutral_092,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.639903,0.494282,0.625341,0.999994,1.0,0.62332,0.501797,0.995594,1.0,7,70.0,6,60.0
+cs_neutral_093,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.608064,0.522542,0.548199,0.981724,1.0,0.708248,0.397844,0.997104,1.0,4,40.0,6,60.0
+cs_neutral_093,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.681487,0.458226,0.569857,0.989584,1.0,0.708248,0.397844,0.997104,1.0,5,50.0,6,60.0
+cs_neutral_093,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.717142,0.399803,0.62194,0.999066,1.0,0.708248,0.397844,0.997104,1.0,6,60.0,6,60.0
+cs_neutral_093,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.722519,0.387335,0.689,0.999866,1.0,0.708248,0.397844,0.997104,1.0,7,70.0,6,60.0
+cs_neutral_094,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.459207,0.736956,0.653631,0.978366,1.0,0.58223,0.537325,0.992931,1.0,7,70.0,8,80.0
+cs_neutral_094,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.534026,0.648754,0.59139,0.961603,1.0,0.58223,0.537325,0.992931,1.0,7,70.0,8,80.0
+cs_neutral_094,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.572973,0.587667,0.577382,0.999588,1.0,0.58223,0.537325,0.992931,1.0,6,60.0,8,80.0
+cs_neutral_094,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.582754,0.546839,0.579163,0.999924,1.0,0.58223,0.537325,0.992931,1.0,7,70.0,8,80.0
+cs_neutral_095,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.488424,0.678129,0.621218,0.988474,1.0,0.533475,0.590637,0.999471,1.0,6,60.0,6,60.0
+cs_neutral_095,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.520319,0.635436,0.577878,0.995148,1.0,0.533475,0.590637,0.999471,1.0,6,60.0,6,60.0
+cs_neutral_095,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.532869,0.621357,0.559416,0.994671,1.0,0.533475,0.590637,0.999471,1.0,5,50.0,6,60.0
+cs_neutral_095,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.540837,0.589409,0.545694,0.998741,1.0,0.533475,0.590637,0.999471,1.0,6,60.0,6,60.0
+cs_neutral_096,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.419652,0.720599,0.630315,0.970197,1.0,0.583233,0.48088,0.987501,1.0,6,60.0,7,70.0
+cs_neutral_096,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.556098,0.585051,0.570574,0.979112,1.0,0.583233,0.48088,0.987501,1.0,5,50.0,7,70.0
+cs_neutral_096,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.586946,0.530348,0.569967,0.990995,1.0,0.583233,0.48088,0.987501,1.0,6,60.0,7,70.0
+cs_neutral_096,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.592241,0.496953,0.582712,0.999689,1.0,0.583233,0.48088,0.987501,1.0,7,70.0,7,70.0
+cs_neutral_097,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.477132,0.681635,0.620284,0.979548,1.0,0.586936,0.520946,0.998563,1.0,4,40.0,3,30.0
+cs_neutral_097,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.539377,0.629237,0.584307,0.989183,1.0,0.586936,0.520946,0.998563,1.0,3,30.0,3,30.0
+cs_neutral_097,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.594998,0.547479,0.580742,0.998597,1.0,0.586936,0.520946,0.998563,1.0,4,40.0,3,30.0
+cs_neutral_097,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.602843,0.526958,0.595255,0.998786,1.0,0.586936,0.520946,0.998563,1.0,4,40.0,3,30.0
+cs_neutral_098,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.49377,0.653062,0.605274,0.980776,1.0,0.653853,0.3574,0.996215,1.0,7,70.0,3,30.0
+cs_neutral_098,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.534693,0.599081,0.566887,0.963961,1.0,0.653853,0.3574,0.996215,1.0,6,60.0,3,30.0
+cs_neutral_098,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.679551,0.337694,0.576994,0.99963,1.0,0.653853,0.3574,0.996215,1.0,3,30.0,3,30.0
+cs_neutral_098,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.680405,0.32825,0.645189,0.999995,1.0,0.653853,0.3574,0.996215,1.0,4,40.0,3,30.0
+cs_neutral_099,neutral,Algorithms and Theory,Unknown,Unknown,0.3,50,0.476315,0.696579,0.630499,0.968255,1.0,0.595588,0.522075,0.997452,1.0,3,30.0,6,60.0
+cs_neutral_099,neutral,Algorithms and Theory,Unknown,Unknown,0.5,50,0.516261,0.670366,0.593313,0.993744,1.0,0.595588,0.522075,0.997452,1.0,3,30.0,6,60.0
+cs_neutral_099,neutral,Algorithms and Theory,Unknown,Unknown,0.7,50,0.604495,0.542561,0.585915,0.996417,1.0,0.595588,0.522075,0.997452,1.0,5,50.0,6,60.0
+cs_neutral_099,neutral,Algorithms and Theory,Unknown,Unknown,0.9,50,0.614935,0.475797,0.601021,0.999821,1.0,0.595588,0.522075,0.997452,1.0,6,60.0,6,60.0

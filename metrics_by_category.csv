@@ -1,0 +1,21 @@
+primary_cat,lambda,precision_at_10,ndcg_at_10,mrr,spd
+Algorithms and Theory,0.3,0.54,0.8394,0.9167,0.03
+Algorithms and Theory,0.5,0.62,0.8452,0.8767,-0.025
+Algorithms and Theory,0.7,0.69,0.8976,0.8875,-0.015
+Algorithms and Theory,0.9,0.685,0.8639,0.8562,0.04
+Computer Vision,0.3,0.42,0.7995,0.9083,0.025
+Computer Vision,0.5,0.545,0.8559,0.9583,0.06
+Computer Vision,0.7,0.745,0.9156,0.96,0.065
+Computer Vision,0.9,0.775,0.9432,0.9667,0.05
+Machine Learning,0.3,0.355,0.7175,0.728,0.025
+Machine Learning,0.5,0.495,0.7833,0.7681,0.045
+Machine Learning,0.7,0.61,0.8565,0.8333,0.02
+Machine Learning,0.9,0.635,0.8608,0.8142,0.04
+Natural Language Processing,0.3,0.3,0.6691,0.7146,0.08
+Natural Language Processing,0.5,0.38,0.7582,0.7642,0.065
+Natural Language Processing,0.7,0.55,0.8621,0.835,0.1
+Natural Language Processing,0.9,0.605,0.8767,0.8375,0.09
+Systems and Distributed Computing,0.3,0.24,0.597,0.5675,0.035
+Systems and Distributed Computing,0.5,0.265,0.6397,0.605,0.005
+Systems and Distributed Computing,0.7,0.32,0.6768,0.6354,0.055
+Systems and Distributed Computing,0.9,0.3,0.6616,0.6238,0.01

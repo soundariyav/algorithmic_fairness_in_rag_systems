@@ -1,0 +1,5 @@
+query_privilege,lambda,avg_relevance,ndcg_at_10,mrr,mmr_privileged_pct
+Unknown,0.3,0.458183,0.971717,0.98,61.9
+Unknown,0.5,0.516943,0.977234,0.98,61.0
+Unknown,0.7,0.566584,0.994856,0.98,62.5
+Unknown,0.9,0.577824,0.999591,0.98,62.6
