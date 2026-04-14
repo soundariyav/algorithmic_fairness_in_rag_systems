@@ -1,31 +1,255 @@
-query,NDCG@10,MRR,Precision@10,Recall@10
-How do modern optimization methods improve deep learning training?,0.8573194852355609,1.0,0.6,1.0
-What are the latest advances in neural network architectures?,0.6217331638029128,0.3333333333333333,0.5,1.0
-How do transformers work in deep learning models?,0.0,0.0,0.0,0.0
-What techniques improve generalization in machine learning?,0.9217868789962071,1.0,0.3,1.0
-How does transfer learning work across different domains?,0.9605291479810895,1.0,0.8,1.0
-What are effective methods for handling overfitting in neural networks?,0.6947702914378464,0.5,0.4444444444444444,1.0
-How do attention mechanisms improve model performance?,0.8550961823035496,1.0,0.5555555555555556,1.0
-What are the challenges in training very deep neural networks?,0.6509209298071326,0.5,0.2,1.0
-What are the latest advances in natural language processing?,0.9842184869190973,1.0,0.9,1.0
-How do large language models process and generate text?,0.5437713091520254,0.3333333333333333,0.2,1.0
-What techniques improve machine translation quality?,0.8981192674612326,1.0,0.7,1.0
-How does sentiment analysis work with deep learning?,0.9121559825872435,1.0,0.5555555555555556,1.0
-What methods are used for named entity recognition?,0.9397911964740513,1.0,0.6666666666666666,1.0
-What techniques improve computer vision accuracy?,0.6256646589861505,0.5,0.3333333333333333,1.0
-How do convolutional neural networks process images?,0.8772153153380493,1.0,0.2222222222222222,1.0
-What are effective methods for image segmentation?,0.9833032486989473,1.0,0.6666666666666666,1.0
-How does object detection work in neural networks?,0.7486761295186739,0.5,0.4,1.0
-What advances have been made in video understanding?,0.8750832721664332,1.0,0.6,1.0
-How does reinforcement learning apply to robotics?,0.9651366671790967,1.0,0.6666666666666666,1.0
-What are policy gradient methods in reinforcement learning?,0.8930068676327362,1.0,0.5,1.0
-How do multi-agent systems learn coordination?,0.8712396658637702,1.0,0.7,1.0
-What techniques improve sample efficiency in RL?,0.0,0.0,0.0,0.0
-How do graph neural networks process structured data?,0.9397911964740513,1.0,0.6666666666666666,1.0
-What are effective federated learning approaches?,0.9803771474638899,1.0,0.7777777777777778,1.0
-How does meta-learning enable few-shot learning?,0.9705437052559006,1.0,0.6666666666666666,1.0
-What methods prevent catastrophic forgetting in continual learning?,0.9833032486989473,1.0,0.6666666666666666,1.0
-How do generative adversarial networks create realistic images?,0.86034433104172,1.0,0.3,1.0
-What techniques improve neural architecture search?,0.7873809837758803,0.5,0.8,1.0
-How does explainable AI provide model interpretability?,0.8201741356762529,0.5,0.8,1.0
-What approaches handle multimodal learning across vision and language?,0.8710785440003369,1.0,0.3333333333333333,1.0
+query_id,query_type,privilege,region,primary_cat,primary_institution,precision@10,ndcg@10,mrr,spd,avg_cosine_sim,gt_doc_id
+13e1d807-bd2d-4934-9a94-2f98c53c7ebf,neutral,Privileged,America,Astrophysical Phenomena and Observations,Princeton Public Schools,0.1,1.0,1.0,100.0,0.3572,https://openalex.org/W2149078483
+8c040dec-9b07-4e69-a328-877b908edddd,neutral,Privileged,America,Astrophysical Phenomena and Observations,Princeton Public Schools,0.1,1.0,1.0,100.0,0.3745,https://openalex.org/W2149078483
+23fd9a94-bd95-4f33-ad94-b1a59d2567a6,neutral,Privileged,America,Astrophysical Phenomena and Observations,Princeton Public Schools,0.1,1.0,1.0,100.0,0.445,https://openalex.org/W2149078483
+2f733b0c-d2d7-48a0-b5e4-f02f45429ea2,neutral,Privileged,America,Astrophysical Phenomena and Observations,Princeton Public Schools,0.0,0.0,0.0,0.0,0.4435,https://openalex.org/W2149078483
+f73adab8-5034-4d4b-8465-097d61891833,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Basel,0.1,1.0,1.0,100.0,0.5479,https://openalex.org/W2160729269
+0161d5e1-8a28-4617-a2f3-6d17c2c4457a,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Basel,0.0,0.0,0.0,0.0,0.4131,https://openalex.org/W2160729269
+27d66f1c-4bd9-4f87-ab83-0a2c15028522,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Basel,0.1,0.6309,0.5,90.0,0.4898,https://openalex.org/W2160729269
+ea91689b-bf5c-49f4-bd49-2bebd762153d,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Basel,0.1,0.4307,0.25,70.0,0.4933,https://openalex.org/W2160729269
+17cd44bf-2eac-4fb5-97f1-acaf4ba95694,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Turku,0.2,1.1309,0.5,90.0,0.5368,https://openalex.org/W2759675126
+3cde44e0-f518-4f6e-ab5f-978d0c870983,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Turku,0.0,0.0,0.0,0.0,0.3608,https://openalex.org/W2759675126
+4ab0cf59-4e82-445e-86d0-74423945a040,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Turku,0.0,0.0,0.0,0.0,0.4835,https://openalex.org/W2759675126
+9cfebd6c-90e5-436b-aeef-46aa18221320,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Turku,0.0,0.0,0.0,0.0,0.3754,https://openalex.org/W2759675126
+d973483a-2865-4134-8c32-ec16db7015f5,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,Friedrich-Alexander-Universität Erlangen-Nürnberg,0.1,1.0,1.0,100.0,0.3615,https://openalex.org/W2965700406
+4c20821e-b372-4830-8523-a3e3e860a5b8,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,Friedrich-Alexander-Universität Erlangen-Nürnberg,0.1,0.5,0.3333,80.0,0.2928,https://openalex.org/W2965700406
+aa68b624-3ee0-4fce-b078-3911a623c432,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,Friedrich-Alexander-Universität Erlangen-Nürnberg,0.1,1.0,1.0,100.0,0.3593,https://openalex.org/W2965700406
+ccbe58ff-2acf-4381-bd2f-01cdd0fc44f9,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,Friedrich-Alexander-Universität Erlangen-Nürnberg,0.1,0.6309,0.5,90.0,0.3249,https://openalex.org/W2965700406
+defdaafc-5f04-4f82-a13f-201cc66a6f35,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Milan,0.1,0.3562,0.1667,50.0,0.4827,https://openalex.org/W2108088783
+55195c6a-3b14-4969-8953-31a1d9642fa5,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Milan,0.1,1.0,1.0,100.0,0.4861,https://openalex.org/W2108088783
+36b4dcc7-e63d-4681-9df8-605b69f7b9a3,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Milan,0.1,1.0,1.0,100.0,0.3776,https://openalex.org/W2108088783
+d9b0c259-9774-4670-aafd-d508bfb9f4d0,neutral,Underrepresented,Europe,Astrophysical Phenomena and Observations,University of Milan,0.0,0.0,0.0,0.0,0.4519,https://openalex.org/W2108088783
+2c9d7949-166e-4374-8956-c65165ad8cbd,neutral,Privileged,Asia,Black Holes and Theoretical Physics,Chinese Academy of Sciences,0.2,1.3562,1.0,100.0,0.4852,https://openalex.org/W3000028430
+8c7062a9-a221-48d9-b8f3-78014a92b193,neutral,Privileged,Asia,Black Holes and Theoretical Physics,Chinese Academy of Sciences,0.0,0.0,0.0,0.0,0.3863,https://openalex.org/W3000028430
+39e17558-60e0-4dd9-b7c1-b5f17a58c511,neutral,Privileged,Asia,Black Holes and Theoretical Physics,Chinese Academy of Sciences,0.2,1.4307,1.0,100.0,0.5095,https://openalex.org/W3000028430
+544a57b7-1861-4e72-8f37-e33d83384ebb,neutral,Privileged,Asia,Black Holes and Theoretical Physics,Chinese Academy of Sciences,0.0,0.0,0.0,0.0,0.4211,https://openalex.org/W3000028430
+890c0c91-529a-46a9-aac7-410ae7949e76,neutral,Underrepresented,Asia,Black Holes and Theoretical Physics,Jadavpur University,0.1,1.0,1.0,100.0,0.5506,https://openalex.org/W2512381937
+5d879e0e-d484-4be7-a4a5-5adddca3cb0b,neutral,Underrepresented,Asia,Black Holes and Theoretical Physics,Jadavpur University,0.1,1.0,1.0,100.0,0.536,https://openalex.org/W2512381937
+043eea01-83f1-41e0-b61c-20f420bc3f3d,neutral,Underrepresented,Asia,Black Holes and Theoretical Physics,Jadavpur University,0.1,1.0,1.0,100.0,0.4967,https://openalex.org/W2512381937
+58f6fe54-b265-408f-8224-911303dde1e8,neutral,Underrepresented,Asia,Black Holes and Theoretical Physics,Jadavpur University,0.1,1.0,1.0,100.0,0.477,https://openalex.org/W2512381937
+70f87ebb-af28-470e-a88f-b910a0b842a8,neutral,Privileged,America,Black Holes and Theoretical Physics,University of Waterloo,0.1,1.0,1.0,100.0,0.4831,https://openalex.org/W2893964262
+e6c6c103-f8e9-4645-840f-9b7586e15fdb,neutral,Privileged,America,Black Holes and Theoretical Physics,University of Waterloo,0.1,0.5,0.3333,80.0,0.5117,https://openalex.org/W2893964262
+d631d748-411e-4b74-a1ea-e1048e744e30,neutral,Privileged,America,Black Holes and Theoretical Physics,University of Waterloo,0.1,1.0,1.0,100.0,0.5132,https://openalex.org/W2893964262
+d05e1c06-77df-44e4-bf15-94b0ff5c5805,neutral,Privileged,America,Black Holes and Theoretical Physics,University of Waterloo,0.0,0.0,0.0,0.0,0.5808,https://openalex.org/W2893964262
+d54ca74c-8645-4c69-b9c9-8155303ac075,neutral,Underrepresented,Europe,Black Holes and Theoretical Physics,"Czech Academy of Sciences, Institute of Physics",0.1,1.0,1.0,100.0,0.5428,https://openalex.org/W4221162581
+7e099726-fdc5-41a1-8f62-49b69a2649b3,neutral,Underrepresented,Europe,Black Holes and Theoretical Physics,"Czech Academy of Sciences, Institute of Physics",0.1,1.0,1.0,100.0,0.483,https://openalex.org/W4221162581
+47534cd8-87a7-4997-884b-458ca7525d92,neutral,Underrepresented,Europe,Black Holes and Theoretical Physics,"Czech Academy of Sciences, Institute of Physics",0.0,0.0,0.0,0.0,0.4745,https://openalex.org/W4221162581
+049f4730-c2d7-4e93-bdef-5b7e8add807d,neutral,Underrepresented,Europe,Black Holes and Theoretical Physics,"Czech Academy of Sciences, Institute of Physics",0.1,1.0,1.0,100.0,0.4162,https://openalex.org/W4221162581
+e568507d-1e04-4004-9781-af60a0d3544d,neutral,Underrepresented,Asia,Black Holes and Theoretical Physics,Xihua University,0.0,0.0,0.0,0.0,0.551,https://openalex.org/W2949190994
+4d12010a-5fea-46f2-9cfa-6e47b9d11641,neutral,Underrepresented,Asia,Black Holes and Theoretical Physics,Xihua University,0.0,0.0,0.0,0.0,0.5469,https://openalex.org/W2949190994
+b3b5f961-f384-4eb9-bb69-a196d51e6ccc,neutral,Underrepresented,Asia,Black Holes and Theoretical Physics,Xihua University,0.0,0.0,0.0,0.0,0.5352,https://openalex.org/W2949190994
+6da8a7f7-8994-4b35-83e5-43d51a84f0ef,neutral,Underrepresented,Asia,Black Holes and Theoretical Physics,Xihua University,0.2,1.3333,1.0,100.0,0.5229,https://openalex.org/W2949190994
+5a1b99b0-789f-4fef-a932-511512675dc4,neutral,Underrepresented,Asia,Complex Network Analysis Techniques,Southwest University,0.1,1.0,1.0,100.0,0.4986,https://openalex.org/W4362639910
+24ae5e37-d0b2-4291-96d1-ab48568d5bca,neutral,Underrepresented,Asia,Complex Network Analysis Techniques,Southwest University,0.1,1.0,1.0,100.0,0.5746,https://openalex.org/W4362639910
+af508ec2-a15f-403d-9bd3-1b39607f13e6,neutral,Underrepresented,Asia,Complex Network Analysis Techniques,Southwest University,0.1,0.6309,0.5,90.0,0.5519,https://openalex.org/W4362639910
+cfbcbc2f-791a-4c0a-890b-a1c254b3d312,neutral,Underrepresented,Asia,Complex Network Analysis Techniques,Southwest University,0.1,0.5,0.3333,80.0,0.4535,https://openalex.org/W4362639910
+f8c1ccb5-89e2-4e1d-bac2-67052993841b,neutral,Privileged,America,Complex Network Analysis Techniques,University of Michigan–Ann Arbor,0.2,1.6309,1.0,100.0,0.4479,https://openalex.org/W3134536990
+26df3d74-b996-4b9d-82a3-4ca1190ea33d,neutral,Privileged,America,Complex Network Analysis Techniques,University of Michigan–Ann Arbor,0.2,1.6309,1.0,100.0,0.4203,https://openalex.org/W3134536990
+62c76f21-7958-422d-b108-686178a1fd9a,neutral,Privileged,America,Complex Network Analysis Techniques,University of Michigan–Ann Arbor,0.1,0.3869,0.2,60.0,0.3457,https://openalex.org/W3134536990
+ee91c644-3c94-47fc-82c8-811f9ad6f853,neutral,Privileged,America,Complex Network Analysis Techniques,University of Michigan–Ann Arbor,0.1,0.3155,0.125,30.0,0.4587,https://openalex.org/W3134536990
+8ee80b17-3f38-47e7-a96f-73b95cb9cc33,neutral,Privileged,America,Complex Network Analysis Techniques,Northwestern University,0.1,1.0,1.0,100.0,0.5087,https://openalex.org/W2111642621
+1dd1e2b1-2d06-4234-8fed-90a7622ce2dd,neutral,Privileged,America,Complex Network Analysis Techniques,Northwestern University,0.1,1.0,1.0,100.0,0.4421,https://openalex.org/W2111642621
+13f993f4-0f25-4be7-b26f-fa1a752d89d8,neutral,Privileged,America,Complex Network Analysis Techniques,Northwestern University,0.1,1.0,1.0,100.0,0.5134,https://openalex.org/W2111642621
+50834926-724e-4135-952c-43d38ea5e60a,neutral,Privileged,America,Complex Network Analysis Techniques,Northwestern University,0.2,1.4307,1.0,100.0,0.5847,https://openalex.org/W2111642621
+3a9ff5c5-f349-4742-a123-3f7e5fb93cd5,neutral,Underrepresented,America,Complex Network Analysis Techniques,University of Calgary,0.0,0.0,0.0,0.0,0.4433,https://openalex.org/W1551299591
+16bcdb5b-e6ce-4b1c-8fd4-8ecd62a3b977,neutral,Underrepresented,America,Complex Network Analysis Techniques,University of Calgary,0.1,0.5,0.3333,80.0,0.5899,https://openalex.org/W1551299591
+5f0c892a-3446-48af-b8d9-688b1997ae9f,neutral,Underrepresented,America,Complex Network Analysis Techniques,University of Calgary,0.1,1.0,1.0,100.0,0.5607,https://openalex.org/W1551299591
+2ed54f77-4f39-44c8-9970-1b61429c26ee,neutral,Underrepresented,America,Complex Network Analysis Techniques,University of Calgary,0.1,0.3562,0.1667,50.0,0.4275,https://openalex.org/W1551299591
+4cc05755-af76-4fe6-9c09-e15c9adedb31,neutral,Underrepresented,Europe,Complex Network Analysis Techniques,Universidad Rovira i Virgili,0.2,1.5,1.0,100.0,0.5637,https://openalex.org/W2100240966
+b0022885-d23c-42b1-9249-1d12f04ea0a8,neutral,Underrepresented,Europe,Complex Network Analysis Techniques,Universidad Rovira i Virgili,0.2,1.4307,1.0,100.0,0.6107,https://openalex.org/W2100240966
+5131307a-d611-402d-a3ef-f87ffc010903,neutral,Underrepresented,Europe,Complex Network Analysis Techniques,Universidad Rovira i Virgili,0.2,1.6309,1.0,100.0,0.5153,https://openalex.org/W2100240966
+a356ee1a-3540-4e87-a729-1c5af1accf66,neutral,Underrepresented,Europe,Complex Network Analysis Techniques,Universidad Rovira i Virgili,0.0,0.0,0.0,0.0,0.4887,https://openalex.org/W2100240966
+0358ba5b-415a-41b2-b5e5-ceee2198f937,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Universidad de Guanajuato,0.1,1.0,1.0,100.0,0.4985,https://openalex.org/W2606572651
+62b69f0b-274f-4767-ba91-f83fedbf7fa5,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Universidad de Guanajuato,0.2,1.6309,1.0,100.0,0.4353,https://openalex.org/W2606572651
+9a5a9720-9206-481d-9bae-41d8384fbb37,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Universidad de Guanajuato,0.1,1.0,1.0,100.0,0.419,https://openalex.org/W2606572651
+b21ac281-54be-4e3f-85b2-ab8d9dda750a,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Universidad de Guanajuato,0.1,1.0,1.0,100.0,0.4542,https://openalex.org/W2606572651
+de0e1f2b-f605-4473-b584-4656d936a7eb,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Perimeter Institute,0.1,0.301,0.1111,20.0,0.4335,https://openalex.org/W3100120805
+ce99b02b-e27c-4456-a665-6dcec7d85b42,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Perimeter Institute,0.1,0.5,0.3333,80.0,0.4252,https://openalex.org/W3100120805
+c385f4aa-ecb0-4a7c-837a-ed6ed398e1cb,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Perimeter Institute,0.2,0.9307,0.3333,80.0,0.3853,https://openalex.org/W3100120805
+93b8dafd-5d20-4249-86e2-b7ad99bd516b,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Perimeter Institute,0.0,0.0,0.0,0.0,0.4685,https://openalex.org/W3100120805
+81e15e0a-55b5-4d2d-a669-0e7f63b3e32b,neutral,Underrepresented,Asia,Cosmology and Gravitation Theories,"Institute of Physics, Academia Sinica",0.1,1.0,1.0,100.0,0.5222,https://openalex.org/W3214492156
+c513f52b-27a1-4bbb-8b0d-05e7e1fea107,neutral,Underrepresented,Asia,Cosmology and Gravitation Theories,"Institute of Physics, Academia Sinica",0.1,1.0,1.0,100.0,0.4038,https://openalex.org/W3214492156
+1d2b22e0-45d8-4a30-880c-9d03b16fb110,neutral,Underrepresented,Asia,Cosmology and Gravitation Theories,"Institute of Physics, Academia Sinica",0.0,0.0,0.0,0.0,0.3343,https://openalex.org/W3214492156
+112d004e-77ba-4d07-ab0c-a27868dc3ad1,neutral,Underrepresented,Asia,Cosmology and Gravitation Theories,"Institute of Physics, Academia Sinica",0.1,0.4307,0.25,70.0,0.4893,https://openalex.org/W3214492156
+e9a29962-41c2-4c71-b13d-f1e9159e657e,neutral,Privileged,Asia,Cosmology and Gravitation Theories,Birla Institute of Technology and Science - Hyderabad Campus,0.1,0.6309,0.5,90.0,0.3097,https://openalex.org/W4402123013
+4a5bacab-f892-4bb8-aa9c-8f686b9f53e0,neutral,Privileged,Asia,Cosmology and Gravitation Theories,Birla Institute of Technology and Science - Hyderabad Campus,0.0,0.0,0.0,0.0,0.4009,https://openalex.org/W4402123013
+18a65576-7454-4fe6-8884-31220b5774ab,neutral,Privileged,Asia,Cosmology and Gravitation Theories,Birla Institute of Technology and Science - Hyderabad Campus,0.0,0.0,0.0,0.0,0.2865,https://openalex.org/W4402123013
+003800b3-8289-4b9b-9dd0-8a2e3a2edae2,neutral,Privileged,Asia,Cosmology and Gravitation Theories,Birla Institute of Technology and Science - Hyderabad Campus,0.0,0.0,0.0,0.0,0.4058,https://openalex.org/W4402123013
+3ace930a-e7ca-47c0-9f2d-41ab5a3144c5,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Universidade Federal do Pará,0.0,0.0,0.0,0.0,0.4523,https://openalex.org/W2505867651
+1e9e41e6-e225-421c-b36a-79319915d7f9,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Universidade Federal do Pará,0.2,0.7891,0.3333,80.0,0.5243,https://openalex.org/W2505867651
+5fa43d47-35a1-44c7-9dda-ae607e566b26,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Universidade Federal do Pará,0.0,0.0,0.0,0.0,0.3946,https://openalex.org/W2505867651
+1452de89-1ee9-4e75-9ef9-ea1e6465ead8,neutral,Underrepresented,America,Cosmology and Gravitation Theories,Universidade Federal do Pará,0.0,0.0,0.0,0.0,0.5236,https://openalex.org/W2505867651
+8b145478-b9c8-4815-9799-434275c0ab5e,neutral,Privileged,Europe,"Galaxies: Formation, Evolution, Phenomena",Max Planck Institute for Extraterrestrial Physics,0.1,1.0,1.0,100.0,0.4579,https://openalex.org/W2992374467
+657647ca-f079-4460-a64d-a1d3ea7dc3d2,neutral,Privileged,Europe,"Galaxies: Formation, Evolution, Phenomena",Max Planck Institute for Extraterrestrial Physics,0.2,0.9464,0.5,90.0,0.4697,https://openalex.org/W2992374467
+f0061d92-a55c-4ff1-bb7b-ec9ba1b9dc41,neutral,Privileged,Europe,"Galaxies: Formation, Evolution, Phenomena",Max Planck Institute for Extraterrestrial Physics,0.1,1.0,1.0,100.0,0.4484,https://openalex.org/W2992374467
+74a7139d-72da-4562-9760-73c6a74d27d0,neutral,Privileged,Europe,"Galaxies: Formation, Evolution, Phenomena",Max Planck Institute for Extraterrestrial Physics,0.1,1.0,1.0,100.0,0.4196,https://openalex.org/W2992374467
+6536585a-6f12-4e77-bff1-f61cd3a368c4,neutral,Privileged,America,"Galaxies: Formation, Evolution, Phenomena","University of Maryland, College Park",0.1,0.6309,0.5,90.0,0.5,https://openalex.org/W2052779636
+e78865c1-e3d8-48dd-8fb7-3b74f93974a9,neutral,Privileged,America,"Galaxies: Formation, Evolution, Phenomena","University of Maryland, College Park",0.1,0.6309,0.5,90.0,0.4398,https://openalex.org/W2052779636
+ead2ee84-cf37-4795-b5a6-b3f630c76497,neutral,Privileged,America,"Galaxies: Formation, Evolution, Phenomena","University of Maryland, College Park",0.1,1.0,1.0,100.0,0.5437,https://openalex.org/W2052779636
+605a2a57-af11-42e0-b0b2-85a969d51a6d,neutral,Privileged,America,"Galaxies: Formation, Evolution, Phenomena","University of Maryland, College Park",0.0,0.0,0.0,0.0,0.4979,https://openalex.org/W2052779636
+a8dfaf2c-946e-413e-9d53-7d0a34b26308,neutral,Privileged,America,"Galaxies: Formation, Evolution, Phenomena",West Virginia University Hospitals,0.0,0.0,0.0,0.0,0.5085,https://openalex.org/W3207517111
+b24bd2ee-70c8-4bac-ad36-72279f191536,neutral,Privileged,America,"Galaxies: Formation, Evolution, Phenomena",West Virginia University Hospitals,0.1,1.0,1.0,100.0,0.452,https://openalex.org/W3207517111
+e8b1046d-c0f1-46d6-a2cd-90889f1b7709,neutral,Privileged,America,"Galaxies: Formation, Evolution, Phenomena",West Virginia University Hospitals,0.1,1.0,1.0,100.0,0.4283,https://openalex.org/W3207517111
+2264e412-78e3-41c3-8c37-0a3ecfc911b4,neutral,Privileged,America,"Galaxies: Formation, Evolution, Phenomena",West Virginia University Hospitals,0.1,1.0,1.0,100.0,0.3981,https://openalex.org/W3207517111
+b8c59523-da50-47cf-9c01-2e986330af57,neutral,Underrepresented,Europe,"Galaxies: Formation, Evolution, Phenomena",Laboratoire d’Astrophysique de Marseille,0.1,0.6309,0.5,90.0,0.3501,https://openalex.org/W2953226721
+74dbad60-ae93-490c-b436-a8ad1ca54603,neutral,Underrepresented,Europe,"Galaxies: Formation, Evolution, Phenomena",Laboratoire d’Astrophysique de Marseille,0.0,0.0,0.0,0.0,0.3173,https://openalex.org/W2953226721
+4916cb22-3b6d-43a6-a956-fd126165a8ed,neutral,Underrepresented,Europe,"Galaxies: Formation, Evolution, Phenomena",Laboratoire d’Astrophysique de Marseille,0.1,1.0,1.0,100.0,0.5108,https://openalex.org/W2953226721
+25486193-f636-4bc8-8383-b2881b2dc2ef,neutral,Underrepresented,Europe,"Galaxies: Formation, Evolution, Phenomena",Laboratoire d’Astrophysique de Marseille,0.0,0.0,0.0,0.0,0.4595,https://openalex.org/W2953226721
+313ac132-d4d6-4f3a-b5ce-2a17c2da76e1,neutral,Underrepresented,Europe,"Galaxies: Formation, Evolution, Phenomena",University of Göttingen,0.1,0.4307,0.25,70.0,0.539,https://openalex.org/W1996074109
+d55c4d3c-d7bd-4f49-a7d0-867c9be62852,neutral,Underrepresented,Europe,"Galaxies: Formation, Evolution, Phenomena",University of Göttingen,0.0,0.0,0.0,0.0,0.4736,https://openalex.org/W1996074109
+ff3bbd4a-6ebd-4181-b957-706b7a5460ec,neutral,Underrepresented,Europe,"Galaxies: Formation, Evolution, Phenomena",University of Göttingen,0.1,1.0,1.0,100.0,0.457,https://openalex.org/W1996074109
+13c522de-b759-4d62-bffb-f15761a07fe3,neutral,Underrepresented,Europe,"Galaxies: Formation, Evolution, Phenomena",University of Göttingen,0.1,0.4307,0.25,70.0,0.4685,https://openalex.org/W1996074109
+75997682-de7a-48f5-9e82-ceb425329696,neutral,Underrepresented,Other,Particle physics theoretical and experimental studies,United Arab Emirates University,0.0,0.0,0.0,0.0,0.3991,https://openalex.org/W4410490401
+9a576898-a13f-456f-9a5a-37d506e4e353,neutral,Underrepresented,Other,Particle physics theoretical and experimental studies,United Arab Emirates University,0.0,0.0,0.0,0.0,0.4046,https://openalex.org/W4410490401
+dbc59fcb-7966-4858-a1cd-0cef72858b6f,neutral,Underrepresented,Other,Particle physics theoretical and experimental studies,United Arab Emirates University,0.0,0.0,0.0,0.0,0.4631,https://openalex.org/W4410490401
+0a9a57fc-dcbe-4895-9834-b2adecf57d33,neutral,Underrepresented,Other,Particle physics theoretical and experimental studies,United Arab Emirates University,0.0,0.0,0.0,0.0,0.5487,https://openalex.org/W4410490401
+1cd2b156-d23c-4bbc-b41d-10931fd33bd0,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,Nagoya University,0.0,0.0,0.0,0.0,0.541,https://openalex.org/W2035842045
+184cef87-fc4e-4836-8114-7908b6b8334b,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,Nagoya University,0.0,0.0,0.0,0.0,0.4547,https://openalex.org/W2035842045
+d4b77ca6-2560-42f8-ae20-ac001da256a9,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,Nagoya University,0.0,0.0,0.0,0.0,0.4129,https://openalex.org/W2035842045
+96755545-f371-47b8-ac1c-d98550cc5080,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,Nagoya University,0.0,0.0,0.0,0.0,0.4241,https://openalex.org/W2035842045
+b922b3fc-dad1-4da4-83d0-a9c15a07a735,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,Maharaja Sayajirao University of Baroda,0.0,0.0,0.0,0.0,0.4074,https://openalex.org/W2898443394
+c14051c2-b232-43c3-8816-1d45df036c7d,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,Maharaja Sayajirao University of Baroda,0.0,0.0,0.0,0.0,0.3812,https://openalex.org/W2898443394
+511a7cbe-0fd4-4bd0-bec8-2ada08a03908,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,Maharaja Sayajirao University of Baroda,0.0,0.0,0.0,0.0,0.3355,https://openalex.org/W2898443394
+c634eac4-953f-49f2-a8af-17d9ee79accc,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,Maharaja Sayajirao University of Baroda,0.0,0.0,0.0,0.0,0.3684,https://openalex.org/W2898443394
+47a3c4dd-8a0d-473a-9b88-884042d2c5d8,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,"Institute of Physics, Academia Sinica",0.1,0.6309,0.5,90.0,0.4123,https://openalex.org/W2180410450
+a6eb4016-0f0c-403f-8b8e-9a82a83779a3,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,"Institute of Physics, Academia Sinica",0.0,0.0,0.0,0.0,0.447,https://openalex.org/W2180410450
+8f7bcd63-4145-43fb-966d-3ca5836dde6d,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,"Institute of Physics, Academia Sinica",0.0,0.0,0.0,0.0,0.399,https://openalex.org/W2180410450
+e0ce22d0-9212-46e1-95fa-75b68944a0d7,neutral,Underrepresented,Asia,Particle physics theoretical and experimental studies,"Institute of Physics, Academia Sinica",0.0,0.0,0.0,0.0,0.3845,https://openalex.org/W2180410450
+a3f0c49b-e919-43b0-ad05-24a3fd746e51,neutral,Underrepresented,Europe,Particle physics theoretical and experimental studies,University of Trieste,0.0,0.0,0.0,0.0,0.4274,https://openalex.org/W2884928202
+58e441b2-7ecb-4e2b-bd5c-312ef3ffd44a,neutral,Underrepresented,Europe,Particle physics theoretical and experimental studies,University of Trieste,0.0,0.0,0.0,0.0,0.3622,https://openalex.org/W2884928202
+ecff891b-6677-4923-a545-b2bf32e700e0,neutral,Underrepresented,Europe,Particle physics theoretical and experimental studies,University of Trieste,0.0,0.0,0.0,0.0,0.3061,https://openalex.org/W2884928202
+e73ada83-33ff-49aa-b1dc-d2d0b47b0667,neutral,Underrepresented,Europe,Particle physics theoretical and experimental studies,University of Trieste,0.0,0.0,0.0,0.0,0.3669,https://openalex.org/W2884928202
+c6cdc2e5-9961-4889-a8ab-ca2ffb50aff0,neutral,Privileged,Europe,Pulsars and Gravitational Waves Research,"Istituto Nazionale di Fisica Nucleare, Sezione di Pisa",0.0,0.0,0.0,0.0,0.4068,https://openalex.org/W2955470973
+b7894218-e92e-4a54-8ffa-5cbaaf375e40,neutral,Privileged,Europe,Pulsars and Gravitational Waves Research,"Istituto Nazionale di Fisica Nucleare, Sezione di Pisa",0.0,0.0,0.0,0.0,0.3071,https://openalex.org/W2955470973
+033adb6e-2355-431b-a1af-1e1eca92c483,neutral,Privileged,Europe,Pulsars and Gravitational Waves Research,"Istituto Nazionale di Fisica Nucleare, Sezione di Pisa",0.0,0.0,0.0,0.0,0.2983,https://openalex.org/W2955470973
+b8180490-cdcb-4f40-b758-543ff4e4594e,neutral,Privileged,Europe,Pulsars and Gravitational Waves Research,"Istituto Nazionale di Fisica Nucleare, Sezione di Pisa",0.0,0.0,0.0,0.0,0.355,https://openalex.org/W2955470973
+57afc6f6-04f5-462d-bb84-5734a2e636e5,neutral,Privileged,Europe,Pulsars and Gravitational Waves Research,Universitat de València,0.0,0.0,0.0,0.0,0.5037,https://openalex.org/W2600837143
+9a83cae7-3078-4728-9d65-8fe44f5bc161,neutral,Privileged,Europe,Pulsars and Gravitational Waves Research,Universitat de València,0.0,0.0,0.0,0.0,0.3594,https://openalex.org/W2600837143
+44ec05bb-ae4c-4b7e-bba7-96b9b744baf3,neutral,Privileged,Europe,Pulsars and Gravitational Waves Research,Universitat de València,0.0,0.0,0.0,0.0,0.4121,https://openalex.org/W2600837143
+c8144342-f9e4-4e8e-a48d-97aa98ae8c51,neutral,Privileged,Europe,Pulsars and Gravitational Waves Research,Universitat de València,0.0,0.0,0.0,0.0,0.4534,https://openalex.org/W2600837143
+061fc841-85ab-4f33-b6eb-90a529d8443d,neutral,Underrepresented,Europe,Pulsars and Gravitational Waves Research,Institut d'Astrophysique de Paris,0.0,0.0,0.0,0.0,0.4588,https://openalex.org/W2299665860
+c8255f77-3fe0-4fff-82d9-99fe402753a6,neutral,Underrepresented,Europe,Pulsars and Gravitational Waves Research,Institut d'Astrophysique de Paris,0.0,0.0,0.0,0.0,0.5469,https://openalex.org/W2299665860
+49bdea92-155c-45e5-a717-33567bc74d35,neutral,Underrepresented,Europe,Pulsars and Gravitational Waves Research,Institut d'Astrophysique de Paris,0.0,0.0,0.0,0.0,0.4727,https://openalex.org/W2299665860
+eeb822e1-06aa-435a-8680-a03d11a8e533,neutral,Underrepresented,Europe,Pulsars and Gravitational Waves Research,Institut d'Astrophysique de Paris,0.0,0.0,0.0,0.0,0.475,https://openalex.org/W2299665860
+d236ce19-6544-4aaf-bfba-ee8dc9810b4d,neutral,Privileged,America,Pulsars and Gravitational Waves Research,Pennsylvania State University,0.0,0.0,0.0,0.0,0.38,https://openalex.org/W2053934101
+32971daa-9a3a-4988-b47b-8ca13068ecdb,neutral,Privileged,America,Pulsars and Gravitational Waves Research,Pennsylvania State University,0.0,0.0,0.0,0.0,0.4796,https://openalex.org/W2053934101
+abc65637-f6f6-4db2-8dfa-0ed9c2caa944,neutral,Privileged,America,Pulsars and Gravitational Waves Research,Pennsylvania State University,0.0,0.0,0.0,0.0,0.4512,https://openalex.org/W2053934101
+ae86bab3-db7d-44c8-9581-450895084c0b,neutral,Privileged,America,Pulsars and Gravitational Waves Research,Pennsylvania State University,0.0,0.0,0.0,0.0,0.3308,https://openalex.org/W2053934101
+e5420f19-4a51-459e-8153-474f40698ffd,neutral,Underrepresented,Europe,Pulsars and Gravitational Waves Research,Peoples' Friendship University of Russia,0.0,0.0,0.0,0.0,0.4158,https://openalex.org/W2896297796
+db05eb5b-4a35-4c0b-b106-8f176c3d4ff4,neutral,Underrepresented,Europe,Pulsars and Gravitational Waves Research,Peoples' Friendship University of Russia,0.0,0.0,0.0,0.0,0.3973,https://openalex.org/W2896297796
+b3541a73-9697-4e2c-9273-e8a8142ad633,neutral,Underrepresented,Europe,Pulsars and Gravitational Waves Research,Peoples' Friendship University of Russia,0.0,0.0,0.0,0.0,0.404,https://openalex.org/W2896297796
+c8f3ff0c-8722-4f05-abb9-b0a9e31c7a07,neutral,Underrepresented,Europe,Pulsars and Gravitational Waves Research,Peoples' Friendship University of Russia,0.0,0.0,0.0,0.0,0.3433,https://openalex.org/W2896297796
+c64cb270-7140-4840-8158-ed37e39a441d,neutral,Underrepresented,Asia,Quantum Computing Algorithms and Architecture,Centre for Quantum Technologies,0.0,0.0,0.0,0.0,0.2875,https://openalex.org/W2068143801
+1ef78806-9f1c-4632-956e-57b5411a985d,neutral,Underrepresented,Asia,Quantum Computing Algorithms and Architecture,Centre for Quantum Technologies,0.0,0.0,0.0,0.0,0.4973,https://openalex.org/W2068143801
+4f1179cc-0649-4d47-b7f4-38ff9dc09c95,neutral,Underrepresented,Asia,Quantum Computing Algorithms and Architecture,Centre for Quantum Technologies,0.0,0.0,0.0,0.0,0.4259,https://openalex.org/W2068143801
+252f1b15-dcb7-430f-b591-7facae8d170a,neutral,Underrepresented,Asia,Quantum Computing Algorithms and Architecture,Centre for Quantum Technologies,0.0,0.0,0.0,0.0,0.4582,https://openalex.org/W2068143801
+69176f43-64d9-4a27-b63b-5603e560c60d,neutral,Underrepresented,Europe,Quantum Computing Algorithms and Architecture,Université de Montpellier,0.0,0.0,0.0,0.0,0.4484,https://openalex.org/W3127495092
+2d0ee276-f899-46bb-9628-6a82d317f654,neutral,Underrepresented,Europe,Quantum Computing Algorithms and Architecture,Université de Montpellier,0.0,0.0,0.0,0.0,0.438,https://openalex.org/W3127495092
+ea9290b5-a3f8-4d1e-a79a-e093f3a35a6a,neutral,Underrepresented,Europe,Quantum Computing Algorithms and Architecture,Université de Montpellier,0.0,0.0,0.0,0.0,0.5096,https://openalex.org/W3127495092
+e76acd98-b8e3-4742-bfb6-521fc004e2a1,neutral,Underrepresented,Europe,Quantum Computing Algorithms and Architecture,Université de Montpellier,0.0,0.0,0.0,0.0,0.5603,https://openalex.org/W3127495092
+e4efcc3f-df72-4367-82e8-b47ee5b0c1e1,neutral,Privileged,America,Quantum Computing Algorithms and Architecture,University of Waterloo,0.0,0.0,0.0,0.0,0.471,https://openalex.org/W2011867118
+c5cff5a4-ff24-486a-8321-648941d9a8c5,neutral,Privileged,America,Quantum Computing Algorithms and Architecture,University of Waterloo,0.0,0.0,0.0,0.0,0.4572,https://openalex.org/W2011867118
+8e9d0f7a-c2f0-4fa6-aae0-048070833f84,neutral,Privileged,America,Quantum Computing Algorithms and Architecture,University of Waterloo,0.0,0.0,0.0,0.0,0.4353,https://openalex.org/W2011867118
+db1d44fc-ff78-40c4-b0a7-c686ba2ec8a3,neutral,Privileged,America,Quantum Computing Algorithms and Architecture,University of Waterloo,0.0,0.0,0.0,0.0,0.4352,https://openalex.org/W2011867118
+fb4d4fb0-880a-4012-ba61-134870347c0d,neutral,Privileged,Asia,Quantum Computing Algorithms and Architecture,University of Science and Technology of China,0.0,0.0,0.0,0.0,0.498,https://openalex.org/W2024801628
+8b5069a0-2f95-48ed-b955-f60ae1f3efd0,neutral,Privileged,Asia,Quantum Computing Algorithms and Architecture,University of Science and Technology of China,0.0,0.0,0.0,0.0,0.3351,https://openalex.org/W2024801628
+15289829-442b-4713-bfae-87027d5ca4ad,neutral,Privileged,Asia,Quantum Computing Algorithms and Architecture,University of Science and Technology of China,0.0,0.0,0.0,0.0,0.4695,https://openalex.org/W2024801628
+3511dba0-fea2-4136-9eb2-b8b146fbcd70,neutral,Privileged,Asia,Quantum Computing Algorithms and Architecture,University of Science and Technology of China,0.0,0.0,0.0,0.0,0.3449,https://openalex.org/W2024801628
+e0d4ffc3-ec41-48c8-92f1-8e0f8c512808,neutral,Privileged,Europe,Quantum Computing Algorithms and Architecture,University of Cambridge,0.0,0.0,0.0,0.0,0.3553,https://openalex.org/W3012290080
+e02eedfb-5c04-4209-8ce2-5312b1069cf6,neutral,Privileged,Europe,Quantum Computing Algorithms and Architecture,University of Cambridge,0.0,0.0,0.0,0.0,0.4829,https://openalex.org/W3012290080
+6fc6e0a5-1ab2-41ab-aa48-78a24ddf2369,neutral,Privileged,Europe,Quantum Computing Algorithms and Architecture,University of Cambridge,0.0,0.0,0.0,0.0,0.5048,https://openalex.org/W3012290080
+0bbded64-4f41-4549-afd6-5d8af4167a15,neutral,Privileged,Europe,Quantum Computing Algorithms and Architecture,University of Cambridge,0.0,0.0,0.0,0.0,0.5169,https://openalex.org/W3012290080
+f3928770-845d-469f-b585-865a743bbfbf,neutral,Underrepresented,America,Quantum Information and Cryptography,Jet Propulsion Laboratory,0.0,0.0,0.0,0.0,0.3969,https://openalex.org/W2952227704
+2fa7f303-b733-45d5-9194-b2e0c14c94e4,neutral,Underrepresented,America,Quantum Information and Cryptography,Jet Propulsion Laboratory,0.0,0.0,0.0,0.0,0.4083,https://openalex.org/W2952227704
+150c954b-2627-408c-9d47-24ec4fac72ba,neutral,Underrepresented,America,Quantum Information and Cryptography,Jet Propulsion Laboratory,0.0,0.0,0.0,0.0,0.5591,https://openalex.org/W2952227704
+4162bd0e-8016-46c1-b058-b3916943a38d,neutral,Underrepresented,America,Quantum Information and Cryptography,Jet Propulsion Laboratory,0.0,0.0,0.0,0.0,0.4091,https://openalex.org/W2952227704
+429e49fc-d178-4b53-9ab1-1169197b5ce6,neutral,Privileged,America,Quantum Information and Cryptography,University of Toronto,0.0,0.0,0.0,0.0,0.4592,https://openalex.org/W1972714904
+fe18e0a0-ebdc-45e1-abfd-e2951228d90a,neutral,Privileged,America,Quantum Information and Cryptography,University of Toronto,0.0,0.0,0.0,0.0,0.4374,https://openalex.org/W1972714904
+5cbd471e-d522-44a2-9232-31d662d7a08b,neutral,Privileged,America,Quantum Information and Cryptography,University of Toronto,0.0,0.0,0.0,0.0,0.358,https://openalex.org/W1972714904
+7f03dcfc-9f84-46f8-afb3-51c0dae3b97a,neutral,Privileged,America,Quantum Information and Cryptography,University of Toronto,0.0,0.0,0.0,0.0,0.4826,https://openalex.org/W1972714904
+19cb77f3-87db-4179-988f-d3157b75efa2,neutral,Underrepresented,Europe,Quantum Information and Cryptography,Karlsruhe Institute of Technology,0.0,0.0,0.0,0.0,0.4828,https://openalex.org/W2034844459
+9f3fdb51-73a8-4122-a6ec-06e374bec21e,neutral,Underrepresented,Europe,Quantum Information and Cryptography,Karlsruhe Institute of Technology,0.0,0.0,0.0,0.0,0.364,https://openalex.org/W2034844459
+b298119a-cd85-482e-9133-9f1c6f01e6b4,neutral,Underrepresented,Europe,Quantum Information and Cryptography,Karlsruhe Institute of Technology,0.0,0.0,0.0,0.0,0.2858,https://openalex.org/W2034844459
+31f408a3-30b9-4616-bffc-b1d7a43a9a20,neutral,Underrepresented,Europe,Quantum Information and Cryptography,Karlsruhe Institute of Technology,0.0,0.0,0.0,0.0,0.3594,https://openalex.org/W2034844459
+d8f0cd5d-8c93-4e69-8863-31fd160cd3ee,neutral,Privileged,America,Quantum Information and Cryptography,Massachusetts Institute of Technology,0.0,0.0,0.0,0.0,0.4397,https://openalex.org/W2059207587
+d1aecff0-a596-41fd-97b8-4d81405f7fac,neutral,Privileged,America,Quantum Information and Cryptography,Massachusetts Institute of Technology,0.0,0.0,0.0,0.0,0.4469,https://openalex.org/W2059207587
+64d9146f-0144-4d07-8a24-792fe5115b81,neutral,Privileged,America,Quantum Information and Cryptography,Massachusetts Institute of Technology,0.0,0.0,0.0,0.0,0.3723,https://openalex.org/W2059207587
+70d5c8fd-02a4-4d57-b170-89c6127dc6b7,neutral,Privileged,America,Quantum Information and Cryptography,Massachusetts Institute of Technology,0.0,0.0,0.0,0.0,0.4902,https://openalex.org/W2059207587
+489153a9-433c-4936-b7b2-bf4a9f92af2b,neutral,Privileged,Europe,Quantum Information and Cryptography,Centre National de la Recherche Scientifique,0.0,0.0,0.0,0.0,0.5267,https://openalex.org/W3216502336
+c978a0df-ce5d-45f5-a745-d942d81fcb8f,neutral,Privileged,Europe,Quantum Information and Cryptography,Centre National de la Recherche Scientifique,0.0,0.0,0.0,0.0,0.5454,https://openalex.org/W3216502336
+cd56dc06-e1de-4cf8-8bcd-57f76fa00b5e,neutral,Privileged,Europe,Quantum Information and Cryptography,Centre National de la Recherche Scientifique,0.0,0.0,0.0,0.0,0.4884,https://openalex.org/W3216502336
+398b8af7-53db-41f8-981f-70610c700fe1,neutral,Privileged,Europe,Quantum Information and Cryptography,Centre National de la Recherche Scientifique,0.0,0.0,0.0,0.0,0.4846,https://openalex.org/W3216502336
+9ea71302-fffe-4e7f-97b8-88a5bbb148e8,neutral,Privileged,America,"Stellar, planetary, and galactic studies",Cornell University,0.0,0.0,0.0,0.0,0.4348,https://openalex.org/W1968369467
+fd867a43-c9e0-4a21-b16d-c3a50d0f6110,neutral,Privileged,America,"Stellar, planetary, and galactic studies",Cornell University,0.0,0.0,0.0,0.0,0.5009,https://openalex.org/W1968369467
+d4201c30-81c1-4b6a-845a-a13ed8ca6b70,neutral,Privileged,America,"Stellar, planetary, and galactic studies",Cornell University,0.0,0.0,0.0,0.0,0.4798,https://openalex.org/W1968369467
+55c49aad-0bf1-440a-a43b-f9953f416251,neutral,Privileged,America,"Stellar, planetary, and galactic studies",Cornell University,0.0,0.0,0.0,0.0,0.4554,https://openalex.org/W1968369467
+f1d7edbb-e054-45f4-91e9-67a5af79bb9e,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Jet Propulsion Laboratory,0.0,0.0,0.0,0.0,0.4537,https://openalex.org/W2213319680
+f43dc4a2-2c0b-479c-bf41-0f4660844c49,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Jet Propulsion Laboratory,0.0,0.0,0.0,0.0,0.525,https://openalex.org/W2213319680
+40ea2b3f-0d77-4226-97b2-59f6cea9846f,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Jet Propulsion Laboratory,0.0,0.0,0.0,0.0,0.4752,https://openalex.org/W2213319680
+8e136295-3603-41e8-8cc6-a8e3aea2003f,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Jet Propulsion Laboratory,0.0,0.0,0.0,0.0,0.4917,https://openalex.org/W2213319680
+dd3048ec-8346-4557-b894-37af4c7f5cf5,neutral,Privileged,America,"Stellar, planetary, and galactic studies",University of Michigan–Ann Arbor,0.0,0.0,0.0,0.0,0.4373,https://openalex.org/W1582881973
+22800180-9ed4-4f59-a75e-b0b3bb3e8e51,neutral,Privileged,America,"Stellar, planetary, and galactic studies",University of Michigan–Ann Arbor,0.0,0.0,0.0,0.0,0.4034,https://openalex.org/W1582881973
+ca04be01-db1f-49de-abe6-2731b29ac6e0,neutral,Privileged,America,"Stellar, planetary, and galactic studies",University of Michigan–Ann Arbor,0.0,0.0,0.0,0.0,0.3403,https://openalex.org/W1582881973
+e20efef9-d11a-4b56-af38-c011a41a5bc0,neutral,Privileged,America,"Stellar, planetary, and galactic studies",University of Michigan–Ann Arbor,0.0,0.0,0.0,0.0,0.4416,https://openalex.org/W1582881973
+f2ac2720-4f16-495f-8cd8-117b6c0ce04c,neutral,Privileged,America,"Stellar, planetary, and galactic studies",University of British Columbia,0.0,0.0,0.0,0.0,0.3322,https://openalex.org/W2168832382
+a13137a5-a599-4bb0-8197-34c8445b1cd7,neutral,Privileged,America,"Stellar, planetary, and galactic studies",University of British Columbia,0.0,0.0,0.0,0.0,0.3143,https://openalex.org/W2168832382
+8fa634c9-a0f8-401f-8964-335b3dbe6b83,neutral,Privileged,America,"Stellar, planetary, and galactic studies",University of British Columbia,0.0,0.0,0.0,0.0,0.3888,https://openalex.org/W2168832382
+f9b55130-2d2e-492e-a3ad-eef89afc354a,neutral,Privileged,America,"Stellar, planetary, and galactic studies",University of British Columbia,0.0,0.0,0.0,0.0,0.3198,https://openalex.org/W2168832382
+56f023cf-57a7-429b-9393-e2b240723846,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Fisk University,0.0,0.0,0.0,0.0,0.4299,https://openalex.org/W1964919611
+8715ba3d-ecb0-490a-a151-6a3f235c2c70,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Fisk University,0.0,0.0,0.0,0.0,0.4018,https://openalex.org/W1964919611
+35b2a5f5-4b2c-45ae-ab5a-47681d148bad,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Fisk University,0.0,0.0,0.0,0.0,0.3999,https://openalex.org/W1964919611
+ab14d7d4-ddc6-451f-94e7-b48ee4cec9ab,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Fisk University,0.0,0.0,0.0,0.0,0.4573,https://openalex.org/W1964919611
+9699064d-9b94-4d85-90bd-c75a3e46abca,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Fisk University,0.1,1.0,1.0,100.0,0.4456,https://openalex.org/W1964919611
+12b2c033-a6d5-4395-a85a-7bc71679b269,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Fisk University,0.2,0.92,0.5,90.0,0.3575,https://openalex.org/W1964919611
+53f04698-e00d-44ee-9add-854609b9dac9,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Fisk University,0.1,1.0,1.0,100.0,0.4689,https://openalex.org/W1964919611
+5a700940-dd61-489e-8556-8a490049f21f,neutral,Underrepresented,America,"Stellar, planetary, and galactic studies",Fisk University,0.1,1.0,1.0,100.0,0.439,https://openalex.org/W1964919611
+contra_000,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.308,manual
+contra_001,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3537,manual
+contra_002,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3001,manual
+contra_003,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3739,manual
+contra_004,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3495,manual
+contra_005,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4074,manual
+contra_006,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4506,manual
+contra_007,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4058,manual
+contra_008,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.5203,manual
+contra_009,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3949,manual
+contra_010,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3305,manual
+contra_011,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3051,manual
+contra_012,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3388,manual
+contra_013,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.391,manual
+contra_014,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3792,manual
+contra_015,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3646,manual
+contra_016,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.2868,manual
+contra_017,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4086,manual
+contra_018,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3509,manual
+contra_019,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3385,manual
+contra_020,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.5123,manual
+contra_021,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3982,manual
+contra_022,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4061,manual
+contra_023,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3638,manual
+contra_024,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.371,manual
+contra_025,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.363,manual
+contra_026,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3688,manual
+contra_027,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4403,manual
+contra_028,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3843,manual
+contra_029,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.2948,manual
+contra_030,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4782,manual
+contra_031,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.344,manual
+contra_032,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3736,manual
+contra_033,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4025,manual
+contra_034,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3239,manual
+contra_035,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.2704,manual
+contra_036,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.2997,manual
+contra_037,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.2896,manual
+contra_038,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4712,manual
+contra_039,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.362,manual
+contra_040,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.5144,manual
+contra_041,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.605,manual
+contra_042,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3831,manual
+contra_043,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.539,manual
+contra_044,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.4167,manual
+contra_045,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3533,manual
+contra_046,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3362,manual
+contra_047,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3494,manual
+contra_048,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.373,manual
+contra_049,contradictory,Unknown,Unknown,Debate,Unknown,0.0,0.0,0.0,0.0,0.3608,manual
