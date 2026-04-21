@@ -1,0 +1,151 @@
+query_id,query,query_type,method,precision_at_10,ndcg_at_10,mrr,privileged_rate,srr,spd,faithfulness,answer_relevancy,context_recall
+neutral_000,What are the main approaches to transfer learning in deep neural networks?,neutral,Baseline,0.8,0.978,1.0,0.6,1.5,0.02,0.0,0.7509,0.6667
+neutral_001,How do attention mechanisms improve sequence-to-sequence models?,neutral,Baseline,0.3,0.505,0.25,0.7,2.333,0.12,0.5,0.837,0.0
+neutral_002,What methods are used to prevent overfitting in deep learning?,neutral,Baseline,0.7,0.874,1.0,0.6,1.5,0.02,0.3,0.82,0.6667
+neutral_003,How does batch normalization affect neural network training?,neutral,Baseline,0.3,0.792,1.0,0.8,4.0,0.22,0.2,0.8281,0.3333
+neutral_004,What are the key differences between supervised and self-supervised learning?,neutral,Baseline,0.2,0.92,1.0,0.8,4.0,0.22,0.8,0.8404,0.5714
+neutral_005,How are graph neural networks applied to molecular property prediction?,neutral,Baseline,0.9,0.99,1.0,0.7,2.333,0.12,0.5,0.8134,1.0
+neutral_006,What techniques are used for few-shot learning in computer vision?,neutral,Baseline,1.0,1.0,1.0,0.7,2.333,0.12,0.3,0.8252,0.4444
+neutral_007,How does knowledge distillation reduce model size without losing accuracy?,neutral,Baseline,0.7,0.968,1.0,0.8,4.0,0.22,0.4,0.8151,0.6667
+neutral_008,What are the main challenges in multi-task learning for NLP?,neutral,Baseline,0.6,0.756,0.5,0.8,4.0,0.22,0.1,0.835,1.0
+neutral_009,How do variational autoencoders differ from standard autoencoders?,neutral,Baseline,0.2,0.807,1.0,0.4,0.667,-0.18,0.9,0.6715,0.3333
+neutral_010,What are the current approaches for continual learning in neural networks?,neutral,Baseline,1.0,1.0,1.0,0.2,0.25,-0.38,0.6,0.7707,0.375
+neutral_011,How is meta-learning applied to fast adaptation in new domains?,neutral,Baseline,0.7,0.995,1.0,1.0,inf,0.42,0.2,0.8132,1.0
+neutral_012,What are the key components of a modern recommendation system?,neutral,Baseline,0.7,0.745,0.5,0.4,0.667,-0.18,0.6,0.8228,0.5
+neutral_013,How do generative adversarial networks handle mode collapse?,neutral,Baseline,0.2,0.571,0.5,1.0,inf,0.42,0.1,0.7999,0.3333
+neutral_014,What methods are used for neural architecture search?,neutral,Baseline,0.9,0.99,1.0,0.7,2.333,0.12,0.1,0.7209,0.4444
+neutral_015,How is contrastive learning used for representation learning?,neutral,Baseline,0.7,0.906,1.0,0.5,1.0,-0.08,0.3,0.5975,0.0
+neutral_016,What are the limitations of current reinforcement learning algorithms?,neutral,Baseline,0.4,0.66,0.5,0.6,1.5,0.02,0.3,0.8082,0.6667
+neutral_017,How do transformer models handle long-range dependencies?,neutral,Baseline,0.3,0.572,0.333,0.4,0.667,-0.18,0.4,0.7306,1.0
+neutral_018,What are the main approaches to uncertainty estimation in deep learning?,neutral,Baseline,0.6,0.733,0.5,0.7,2.333,0.12,0.1,0.8151,0.0
+neutral_019,How is federated learning used to preserve privacy in model training?,neutral,Baseline,0.9,0.99,1.0,0.4,0.667,-0.18,0.6,0.8526,0.5
+neutral_020,What are the main techniques for named entity recognition in low-resource languages?,neutral,Baseline,0.8,0.975,1.0,0.5,1.0,-0.08,0.0,0.7768,0.2857
+neutral_021,How do large language models handle multilingual text generation?,neutral,Baseline,0.6,0.778,0.5,0.8,4.0,0.22,0.0,0.7767,0.6667
+neutral_022,What methods are used for sentiment analysis in social media text?,neutral,Baseline,0.7,0.891,1.0,0.3,0.429,-0.28,0.2,0.7679,0.5
+neutral_023,How does BERT improve performance on question answering tasks?,neutral,Baseline,0.5,1.0,1.0,0.8,4.0,0.22,0.6,0.7962,1.0
+neutral_024,What are the challenges of machine translation for low-resource language pairs?,neutral,Baseline,0.3,0.906,1.0,0.7,2.333,0.12,0.1,0.8829,0.5
+neutral_025,How is coreference resolution handled in modern NLP pipelines?,neutral,Baseline,0.3,0.947,1.0,0.8,4.0,0.22,0.1,0.7644,1.0
+neutral_026,What techniques are used for abstractive text summarization?,neutral,Baseline,0.8,0.77,0.5,0.6,1.5,0.02,0.6,0.6841,0.5714
+neutral_027,How do language models handle negation and logical reasoning?,neutral,Baseline,0.2,0.571,0.333,0.7,2.333,0.12,0.2,0.8279,0.75
+neutral_028,What are the main approaches to dialogue state tracking in task-oriented systems?,neutral,Baseline,0.6,0.905,1.0,0.9,9.0,0.32,0.0,0.0611,0.0
+neutral_029,How is semantic parsing used to convert natural language to structured queries?,neutral,Baseline,0.6,1.0,1.0,0.4,0.667,-0.18,0.1,0.8279,1.0
+neutral_030,What methods are used for cross-lingual transfer learning?,neutral,Baseline,0.9,0.99,1.0,0.5,1.0,-0.08,0.1,0.7261,0.4286
+neutral_031,How do neural models handle long document understanding?,neutral,Baseline,0.8,0.817,0.5,0.9,9.0,0.32,0.1,0.7132,0.5
+neutral_032,What are the current approaches for fact verification in NLP?,neutral,Baseline,1.0,1.0,1.0,0.6,1.5,0.02,0.4,0.7652,0.7778
+neutral_033,How is discourse structure used to improve text coherence models?,neutral,Baseline,0.6,0.963,1.0,0.6,1.5,0.02,0.5,0.8343,1.0
+neutral_034,What are the main challenges in open-domain question answering?,neutral,Baseline,0.4,0.761,0.5,0.7,2.333,0.12,0.0,0.8184,0.5714
+neutral_035,How do embedding models capture semantic similarity between sentences?,neutral,Baseline,0.5,0.99,1.0,0.5,1.0,-0.08,0.2,0.8227,0.3333
+neutral_036,What methods are used for relation extraction from unstructured text?,neutral,Baseline,1.0,1.0,1.0,0.7,2.333,0.12,0.3,0.7591,0.625
+neutral_037,How is data augmentation applied to low-resource NLP tasks?,neutral,Baseline,0.5,0.975,1.0,0.6,1.5,0.02,0.6,0.8041,0.3333
+neutral_038,What are the key techniques for text style transfer?,neutral,Baseline,0.5,0.961,1.0,0.8,4.0,0.22,0.2,0.7042,0.4286
+neutral_039,How do neural models handle code generation from natural language?,neutral,Baseline,0.9,0.92,1.0,0.6,1.5,0.02,0.2,0.8124,0.5
+neutral_040,What are the main approaches to object detection in real-time systems?,neutral,Baseline,0.9,0.99,1.0,0.6,1.5,0.02,0.1,0.7322,0.5714
+neutral_041,How do convolutional neural networks extract hierarchical visual features?,neutral,Baseline,0.2,0.442,0.2,0.6,1.5,0.02,0.1,0.8144,0.0
+neutral_042,What methods are used for semantic segmentation in medical imaging?,neutral,Baseline,0.8,0.989,1.0,0.4,0.667,-0.18,0.4,0.7,0.5
+neutral_043,How is self-supervised learning applied to visual representation learning?,neutral,Baseline,0.9,0.92,1.0,0.6,1.5,0.02,0.5,0.7219,0.6667
+neutral_044,What are the challenges of 3D object detection from point clouds?,neutral,Baseline,0.3,0.828,1.0,0.7,2.333,0.12,0.1,0.8355,0.4444
+neutral_045,How do vision transformers compare to CNNs for image classification?,neutral,Baseline,0.4,0.783,1.0,0.6,1.5,0.02,0.2,0.7089,0.6667
+neutral_046,What techniques are used for video understanding and action recognition?,neutral,Baseline,0.9,0.99,1.0,0.7,2.333,0.12,0.5,0.7576,0.5
+neutral_047,How is domain adaptation applied to cross-domain visual recognition?,neutral,Baseline,0.9,0.997,1.0,0.7,2.333,0.12,0.1,0.7937,0.3333
+neutral_048,What are the main approaches to image generation using diffusion models?,neutral,Baseline,0.8,0.993,1.0,0.5,1.0,-0.08,0.1,0.7254,0.6667
+neutral_049,How do neural networks handle visual question answering tasks?,neutral,Baseline,0.9,0.99,1.0,0.7,2.333,0.12,0.7,0.7978,0.6667
+neutral_050,What methods are used for face recognition under occlusion?,neutral,Baseline,0.4,0.899,1.0,0.3,0.429,-0.28,0.3,0.7168,1.0
+neutral_051,How is depth estimation performed from monocular images?,neutral,Baseline,1.0,1.0,1.0,0.6,1.5,0.02,0.5,0.7024,0.6667
+neutral_052,What are the current approaches to anomaly detection in surveillance video?,neutral,Baseline,0.7,0.991,1.0,0.5,1.0,-0.08,0.0,0.7632,0.3333
+neutral_053,How do multi-modal models combine vision and language understanding?,neutral,Baseline,0.7,0.901,1.0,0.6,1.5,0.02,0.1,0.779,0.6667
+neutral_054,What methods are used for optical flow estimation in video sequences?,neutral,Baseline,0.8,0.914,1.0,0.6,1.5,0.02,0.1,0.7372,0.7143
+neutral_055,How is data augmentation used to improve robustness in visual models?,neutral,Baseline,0.7,0.904,1.0,0.7,2.333,0.12,0.1,0.7779,1.0
+neutral_056,What are the main challenges of small object detection in aerial imagery?,neutral,Baseline,0.7,0.797,0.5,0.5,1.0,-0.08,0.2,0.8732,0.5
+neutral_057,How do generative models handle image inpainting and restoration?,neutral,Baseline,0.5,0.933,1.0,0.8,4.0,0.22,0.3,0.7438,0.8
+neutral_058,What techniques are used for pose estimation in human motion analysis?,neutral,Baseline,1.0,1.0,1.0,0.6,1.5,0.02,0.2,0.7314,0.6667
+neutral_059,How is weakly supervised learning applied to object localization?,neutral,Baseline,0.9,1.0,1.0,0.8,4.0,0.22,0.4,0.8025,0.6667
+neutral_060,What are the main techniques for fault tolerance in distributed systems?,neutral,Baseline,0.3,0.593,0.333,0.7,2.333,0.12,0.0,0.8663,0.3333
+neutral_061,How do consensus algorithms handle network partitions in distributed databases?,neutral,Baseline,0.2,0.431,0.2,0.7,2.333,0.12,0.0,0.9317,0.5
+neutral_062,What methods are used for load balancing in cloud computing environments?,neutral,Baseline,0.1,0.5,0.333,0.6,1.5,0.02,0.3,0.7636,0.6667
+neutral_063,How is containerization used to improve application deployment efficiency?,neutral,Baseline,0.5,0.706,0.5,0.5,1.0,-0.08,0.3,0.8906,1.0
+neutral_064,What are the main approaches to memory management in operating systems?,neutral,Baseline,0.0,0.0,0.0,0.7,2.333,0.12,0.0,0.8084,0.2222
+neutral_065,How do caching strategies improve performance in web applications?,neutral,Baseline,0.2,0.571,0.333,0.5,1.0,-0.08,0.1,0.8261,0.3333
+neutral_066,What techniques are used for distributed transaction management?,neutral,Baseline,0.3,0.646,0.5,0.7,2.333,0.12,0.1,0.7795,1.0
+neutral_067,How is resource scheduling handled in Kubernetes clusters?,neutral,Baseline,0.2,0.564,0.5,0.5,1.0,-0.08,0.1,0.8446,1.0
+neutral_068,What are the main challenges in designing serverless computing systems?,neutral,Baseline,0.3,0.497,0.2,0.8,4.0,0.22,0.1,0.7213,0.0
+neutral_069,How do peer-to-peer networks handle data replication and consistency?,neutral,Baseline,0.4,0.867,1.0,0.7,2.333,0.12,0.1,0.742,1.0
+neutral_070,What methods are used for network intrusion detection in real-time systems?,neutral,Baseline,0.7,0.976,1.0,0.3,0.429,-0.28,0.2,0.7385,1.0
+neutral_071,How is garbage collection optimized in managed runtime environments?,neutral,Baseline,0.2,0.798,1.0,0.5,1.0,-0.08,0.0,0.8593,0.0
+neutral_072,What are the key techniques for reducing latency in microservices architectures?,neutral,Baseline,0.4,0.64,0.5,0.3,0.429,-0.28,0.4,0.8411,0.2857
+neutral_073,How do stream processing systems handle out-of-order event arrivals?,neutral,Baseline,0.0,0.0,0.0,0.9,9.0,0.32,0.1,0.9355,0.5
+neutral_074,What methods are used for compiler optimization in modern processors?,neutral,Baseline,0.3,0.86,1.0,0.5,1.0,-0.08,0.0,0.7061,0.5
+neutral_075,How is approximate computing used to improve energy efficiency?,neutral,Baseline,0.5,0.734,0.5,0.6,1.5,0.02,0.1,0.776,0.6667
+neutral_076,What are the main approaches to secure multi-party computation?,neutral,Baseline,0.7,0.988,1.0,0.6,1.5,0.02,0.1,0.8379,0.5
+neutral_077,How do hardware accelerators improve deep learning inference performance?,neutral,Baseline,0.3,0.491,0.25,0.7,2.333,0.12,0.1,0.8442,0.25
+neutral_078,What techniques are used for memory leak detection in large codebases?,neutral,Baseline,0.1,0.5,0.333,0.5,1.0,-0.08,0.2,0.7486,0.5
+neutral_079,How is chaos engineering used to improve distributed system reliability?,neutral,Baseline,0.4,0.971,1.0,0.8,4.0,0.22,0.1,0.8694,0.6667
+neutral_080,What are the main approaches to approximation algorithms for NP-hard problems?,neutral,Baseline,0.6,0.924,1.0,0.4,0.667,-0.18,0.0,0.7062,0.0
+neutral_081,How do randomized algorithms improve performance for graph problems?,neutral,Baseline,0.5,0.932,1.0,0.2,0.25,-0.38,0.5,0.8495,0.5
+neutral_082,What methods are used for privacy-preserving data mining?,neutral,Baseline,0.7,0.968,1.0,0.7,2.333,0.12,0.3,0.732,1.0
+neutral_083,How is dynamic programming applied to sequence alignment problems?,neutral,Baseline,0.2,0.877,1.0,0.6,1.5,0.02,0.0,0.8357,0.0
+neutral_084,What are the key techniques for online learning with adversarial inputs?,neutral,Baseline,0.8,0.961,1.0,0.9,9.0,0.32,0.7,0.7876,0.8
+neutral_085,How do streaming algorithms handle massive datasets with limited memory?,neutral,Baseline,0.4,0.956,1.0,0.4,0.667,-0.18,0.0,0.806,0.0
+neutral_086,What methods are used for sublinear time algorithms on large graphs?,neutral,Baseline,0.5,0.868,1.0,0.9,9.0,0.32,0.0,0.9144,0.0
+neutral_087,How is differential privacy implemented in statistical query systems?,neutral,Baseline,1.0,1.0,1.0,0.7,2.333,0.12,0.1,0.8567,0.3333
+neutral_088,What are the main challenges in designing fair ranking algorithms?,neutral,Baseline,0.8,0.975,1.0,0.7,2.333,0.12,0.2,0.7835,0.5
+neutral_089,How do auction mechanisms handle strategic bidding in online markets?,neutral,Baseline,0.3,0.813,1.0,0.6,1.5,0.02,0.0,0.8358,0.0
+neutral_090,What techniques are used for community detection in large-scale networks?,neutral,Baseline,0.9,0.967,1.0,0.5,1.0,-0.08,0.3,0.8766,0.0
+neutral_091,How is compressed sensing applied to sparse signal recovery?,neutral,Baseline,0.8,0.979,1.0,0.7,2.333,0.12,0.3,0.875,0.6667
+neutral_092,What are the main approaches to robust optimization under uncertainty?,neutral,Baseline,0.9,0.977,1.0,0.6,1.5,0.02,0.1,0.7783,0.6667
+neutral_093,How do quantum algorithms improve performance for search problems?,neutral,Baseline,0.7,0.964,1.0,0.6,1.5,0.02,0.1,0.8744,0.3333
+neutral_094,What methods are used for efficient nearest neighbor search in high dimensions?,neutral,Baseline,0.9,0.95,1.0,0.8,4.0,0.22,0.1,0.7362,0.4286
+neutral_095,How is algorithmic game theory applied to network routing problems?,neutral,Baseline,0.7,0.901,1.0,0.6,1.5,0.02,0.0,0.7617,0.6667
+neutral_096,What are the key techniques for causal inference from observational data?,neutral,Baseline,0.9,0.967,1.0,0.7,2.333,0.12,0.3,0.7595,0.625
+neutral_097,How do evolutionary algorithms handle multi-objective optimization?,neutral,Baseline,0.7,0.965,1.0,0.3,0.429,-0.28,0.1,0.7687,0.5
+neutral_098,What methods are used for anomaly detection in time series data?,neutral,Baseline,0.9,0.833,0.5,0.3,0.429,-0.28,0.7,0.8116,0.5
+neutral_099,How is topological data analysis applied to high-dimensional datasets?,neutral,Baseline,0.8,0.986,1.0,0.6,1.5,0.02,0.2,0.8259,1.0
+contra_000,Is prompt engineering a passing trend or a legitimate engineering discipline?,contradictory,Baseline,0.1,0.631,0.5,0.7,2.333,0.12,0.5,0.6656,1.0
+contra_001,Does deep learning truly outperform traditional machine learning on structured data?,contradictory,Baseline,0.1,0.333,0.143,0.6,1.5,0.02,0.6,0.8881,0.6667
+contra_002,Is the transformer architecture overused and applied beyond its effective domain?,contradictory,Baseline,0.5,0.899,1.0,0.2,0.25,-0.38,0.0,0.7943,0.6667
+contra_003,Has the field of AI become too dependent on large-scale compute and data?,contradictory,Baseline,0.1,0.5,0.333,0.8,4.0,0.22,0.1,0.8285,1.0
+contra_004,Is reinforcement learning from human feedback fundamentally flawed?,contradictory,Baseline,0.3,0.55,0.333,0.4,0.667,-0.18,0.0,0.8357,0.6667
+contra_005,Do large language models actually understand language or merely pattern match?,contradictory,Baseline,0.5,0.72,0.5,0.7,2.333,0.12,0.1,0.6974,0.5
+contra_006,Is AutoML a threat to the relevance of machine learning researchers?,contradictory,Baseline,0.0,0.0,0.0,0.4,0.667,-0.18,0.0,0.9318,0.0
+contra_007,Has transfer learning made domain-specific model training obsolete?,contradictory,Baseline,0.1,0.387,0.2,0.7,2.333,0.12,0.7,0.94,0.0
+contra_008,Is explainable AI sacrificing performance for interpretability unnecessarily?,contradictory,Baseline,0.4,0.935,1.0,0.4,0.667,-0.18,0.3,0.7283,1.0
+contra_009,Are graph neural networks overhyped relative to their practical utility?,contradictory,Baseline,0.0,0.0,0.0,0.8,4.0,0.22,0.1,0.7671,1.0
+contra_010,Is peer review in computer science research broken beyond repair?,contradictory,Baseline,0.0,0.0,0.0,0.6,1.5,0.02,0.6,0.8196,1.0
+contra_011,Has the publish-or-perish culture harmed the quality of CS research?,contradictory,Baseline,0.1,1.0,1.0,0.6,1.5,0.02,0.0,0.7949,0.5
+contra_012,Are benchmark leaderboards misleading measures of true AI progress?,contradictory,Baseline,0.0,0.0,0.0,0.6,1.5,0.02,0.0,0.8998,1.0
+contra_013,Is reproducibility in deep learning research an unsolvable problem?,contradictory,Baseline,0.1,0.5,0.333,0.4,0.667,-0.18,0.2,0.9404,1.0
+contra_014,Has corporate-funded AI research compromised academic independence?,contradictory,Baseline,0.2,0.525,0.333,0.7,2.333,0.12,0.1,0.9117,1.0
+contra_015,Are conference papers in machine learning becoming increasingly incremental?,contradictory,Baseline,0.0,0.0,0.0,0.5,1.0,-0.08,0.2,0.9125,1.0
+contra_016,Is the arXiv preprint culture harmful to rigorous scientific discourse?,contradictory,Baseline,0.3,0.828,1.0,0.6,1.5,0.02,0.0,0.9028,0.6667
+contra_017,Do citation metrics unfairly disadvantage researchers from non-English speaking countries?,contradictory,Baseline,0.1,0.631,0.5,0.3,0.429,-0.28,0.4,0.926,0.0
+contra_018,Is the dominance of English in scientific publishing a form of systemic bias?,contradictory,Baseline,0.1,0.631,0.5,0.5,1.0,-0.08,0.0,0.8935,0.6667
+contra_019,Are retraction rates in AI research indicative of a deeper credibility crisis?,contradictory,Baseline,0.4,0.732,0.5,0.7,2.333,0.12,0.0,0.8646,0.6667
+contra_020,Is algorithmic fairness achievable without sacrificing model accuracy?,contradictory,Baseline,0.2,0.456,0.2,0.7,2.333,0.12,0.8,0.8113,0.6667
+contra_021,Does AI regulation stifle innovation more than it protects society?,contradictory,Baseline,0.1,0.5,0.333,0.6,1.5,0.02,0.1,0.8559,1.0
+contra_022,Is bias in AI systems primarily a data problem or an algorithmic problem?,contradictory,Baseline,0.2,0.491,0.333,0.3,0.429,-0.28,0.5,0.8736,0.75
+contra_023,Can AI systems ever be truly neutral given their human-designed objectives?,contradictory,Baseline,0.4,0.849,1.0,0.7,2.333,0.12,0.5,0.8691,1.0
+contra_024,Is the focus on AI safety distracting from more immediate harms of deployed systems?,contradictory,Baseline,0.2,0.693,0.5,0.5,1.0,-0.08,0.1,0.9249,1.0
+contra_025,Does open-sourcing AI models create more risk than benefit?,contradictory,Baseline,0.0,0.0,0.0,0.4,0.667,-0.18,0.8,0.8621,1.0
+contra_026,Is the carbon footprint of training large AI models ethically justifiable?,contradictory,Baseline,0.0,0.0,0.0,0.6,1.5,0.02,0.8,0.8618,0.6667
+contra_027,Are AI ethics boards effective or merely performative?,contradictory,Baseline,0.1,1.0,1.0,0.7,2.333,0.12,0.2,0.8353,1.0
+contra_028,Should AI research prioritize societal impact over technical novelty?,contradictory,Baseline,0.3,0.539,0.333,0.6,1.5,0.02,0.2,0.8758,1.0
+contra_029,Is the concept of AGI a useful research goal or a dangerous distraction?,contradictory,Baseline,0.1,1.0,1.0,0.8,4.0,0.22,0.0,0.8293,0.0
+contra_030,Is quantum computing a realistic near-term threat to classical cryptography?,contradictory,Baseline,0.1,0.387,0.2,0.6,1.5,0.02,0.5,0.9217,1.0
+contra_031,Has the Von Neumann architecture become a fundamental bottleneck for AI workloads?,contradictory,Baseline,0.0,0.0,0.0,0.8,4.0,0.22,0.0,0.8136,0.5
+contra_032,Is serverless computing overpromised and underdelivered for production systems?,contradictory,Baseline,0.2,0.468,0.25,0.8,4.0,0.22,0.1,0.8399,0.6667
+contra_033,Does microservices architecture introduce more complexity than it solves?,contradictory,Baseline,0.4,0.789,1.0,0.4,0.667,-0.18,0.2,0.7827,0.3333
+contra_034,Is Moore's Law effectively dead and what does that mean for computing progress?,contradictory,Baseline,0.3,0.813,1.0,0.8,4.0,0.22,0.1,0.7837,1.0
+contra_035,Are NoSQL databases superior to relational databases for modern applications?,contradictory,Baseline,0.0,0.0,0.0,0.6,1.5,0.02,0.0,0.7955,0.5
+contra_036,Is Kubernetes becoming too complex for the problems it was designed to solve?,contradictory,Baseline,0.2,0.605,0.5,0.5,1.0,-0.08,0.0,0.8277,0.5
+contra_037,Has blockchain technology failed to deliver on its transformative promises?,contradictory,Baseline,0.1,0.431,0.25,0.6,1.5,0.02,0.2,0.7682,1.0
+contra_038,Is edge computing a viable alternative to centralized cloud infrastructure?,contradictory,Baseline,0.6,0.954,1.0,0.4,0.667,-0.18,0.9,0.9197,1.0
+contra_039,Does the rise of GPUs signal the end of general-purpose CPU dominance?,contradictory,Baseline,0.2,0.85,1.0,0.9,9.0,0.32,0.0,0.7992,0.6667
+contra_040,Is data privacy fundamentally incompatible with effective machine learning?,contradictory,Baseline,0.9,0.984,1.0,0.8,4.0,0.22,0.5,0.8229,1.0
+contra_041,Has federated learning solved the privacy-utility tradeoff in distributed ML?,contradictory,Baseline,0.3,0.558,0.333,0.4,0.667,-0.18,1.0,0.8234,0.75
+contra_042,Is synthetic data generation a reliable substitute for real-world training data?,contradictory,Baseline,0.6,0.689,0.333,0.5,1.0,-0.08,0.5,0.826,1.0
+contra_043,Does differential privacy make machine learning models practically unusable?,contradictory,Baseline,0.0,0.0,0.0,0.7,2.333,0.12,0.9,0.9408,1.0
+contra_044,Is the GDPR hampering AI innovation in Europe?,contradictory,Baseline,0.0,0.0,0.0,0.6,1.5,0.02,0.2,0.8958,0.5
+contra_045,Are data marketplaces an ethical solution to the data scarcity problem?,contradictory,Baseline,0.0,0.0,0.0,0.4,0.667,-0.18,0.1,0.873,1.0
+contra_046,Is web scraping for AI training a violation of intellectual property rights?,contradictory,Baseline,0.0,0.0,0.0,0.7,2.333,0.12,0.0,0.9429,0.5
+contra_047,Has the commoditization of data created new forms of economic inequality?,contradictory,Baseline,0.2,0.58,0.5,0.4,0.667,-0.18,0.4,0.8617,0.5
+contra_048,Is anonymization of personal data sufficient in the age of re-identification attacks?,contradictory,Baseline,0.1,1.0,1.0,0.6,1.5,0.02,0.3,0.9175,0.5
+contra_049,Does the right to be forgotten conflict irreconcilably with machine learning model training?,contradictory,Baseline,0.0,0.0,0.0,0.8,4.0,0.22,0.1,0.7153,1.0
