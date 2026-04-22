@@ -1,0 +1,4 @@
+Metric,Standard Prompt,Balanced Prompt,Difference (Bal-Std)
+Faithfulness,0.9329,0.9617,0.0288
+Answer Relevancy,0.7823,0.9028,0.1205
+Context Relevancy,0.0568,0.0568,0.0
